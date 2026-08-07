@@ -46,9 +46,9 @@
       "python_versions": [
         "3.11"
       ],
-      "archive_url": "https://github.com/OpeningDesign/bonsaiPR/releases/download/v0.8.6-alpha2608071322/bonsaiPR_py311-0.8.6-alpha2608071322-linux-x64.zip",
-      "archive_size": 151233325,
-      "archive_hash": "sha256:4b4ad6ef660a6b6a72d30dfc63eaa6a65a31a9a4a4b5757675b308e9c00b8658"
+      "archive_url": "https://github.com/OpeningDesign/bonsaiPR/releases/download/v0.8.6-alpha2608071443/bonsaiPR_py311-0.8.6-alpha2608071443-linux-x64.zip",
+      "archive_size": 151024374,
+      "archive_hash": "sha256:3020f9e6386aeba9a02d6e7e2f05847e4c1b2391addfe651053090e5eeb76f7c"
     },
     {
       "schema_version": "1.0.0",
@@ -94,9 +94,9 @@
       "python_versions": [
         "3.11"
       ],
-      "archive_url": "https://github.com/OpeningDesign/bonsaiPR/releases/download/v0.8.6-alpha2608071322/bonsaiPR_py311-0.8.6-alpha2608071322-macos-x64.zip",
-      "archive_size": 142009131,
-      "archive_hash": "sha256:a95cb139d4c91d8cf06859ba1e5add44d0abc049c78cb352432d6257d9a25286"
+      "archive_url": "https://github.com/OpeningDesign/bonsaiPR/releases/download/v0.8.6-alpha2608071443/bonsaiPR_py311-0.8.6-alpha2608071443-macos-x64.zip",
+      "archive_size": 141804075,
+      "archive_hash": "sha256:7802acb552034a4aa5af8d2ced728b469527f30d18f4337187a7adc8d2788d52"
     },
     {
       "schema_version": "1.0.0",
@@ -142,9 +142,9 @@
       "python_versions": [
         "3.11"
       ],
-      "archive_url": "https://github.com/OpeningDesign/bonsaiPR/releases/download/v0.8.6-alpha2608071322/bonsaiPR_py311-0.8.6-alpha2608071322-macos-arm64.zip",
-      "archive_size": 136013702,
-      "archive_hash": "sha256:365c7796657a163e426b77b76fad28c1f9ff95aef49fbf041afe6553dd159094"
+      "archive_url": "https://github.com/OpeningDesign/bonsaiPR/releases/download/v0.8.6-alpha2608071443/bonsaiPR_py311-0.8.6-alpha2608071443-macos-arm64.zip",
+      "archive_size": 135840986,
+      "archive_hash": "sha256:be1d4918860d23da7d9edad724fc446db3a10ef4337d34982369555169d1d9f0"
     },
     {
       "schema_version": "1.0.0",
@@ -190,9 +190,9 @@
       "python_versions": [
         "3.11"
       ],
-      "archive_url": "https://github.com/OpeningDesign/bonsaiPR/releases/download/v0.8.6-alpha2608071322/bonsaiPR_py311-0.8.6-alpha2608071322-windows-x64.zip",
-      "archive_size": 122650359,
-      "archive_hash": "sha256:e0c7ac2550c9da2fe6230e253bad65817489c1a0d66c8caeb85c708db11babc6"
+      "archive_url": "https://github.com/OpeningDesign/bonsaiPR/releases/download/v0.8.6-alpha2608071443/bonsaiPR_py311-0.8.6-alpha2608071443-windows-x64.zip",
+      "archive_size": 122571348,
+      "archive_hash": "sha256:a9e8281f926a6706d64f32bf1448015cef0ec1050f30d1e15ee41a212eb6473e"
     },
     {
       "schema_version": "1.0.0",
