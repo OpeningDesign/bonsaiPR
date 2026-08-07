@@ -1,21 +1,21 @@
 {
   "base": "v0.8.0",
+  "base_commit": null,
   "counts": {
-    "failed": 13,
-    "merged": 114,
-    "skipped_conflict": 2,
+    "failed": 2,
+    "merged": 117,
+    "skipped_conflict": 10,
     "skipped_draft": 0,
     "total": 129
   },
-  "generated_at": "2026-08-07T13:38:15Z",
+  "generated_at": "2026-08-07T14:59:37Z",
   "merge_order": "recorded",
   "prs": {
     "5452": {
       "author": "chiragsingh1711",
       "branch": "light/newUI",
       "head": "ac18195",
-      "reason": "Fails to merge against base (problem with PR itself)",
-      "status": "failed",
+      "status": "merged",
       "title": "Radiance Rendering Changes",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/5452"
     },
@@ -32,8 +32,7 @@
       "author": "DimitriosThe",
       "branch": "v0.8.0",
       "head": "e56926e",
-      "reason": "Fails to merge against base (problem with PR itself)",
-      "status": "failed",
+      "status": "merged",
       "title": "#7331 related: Modifications to include IfcSpace entities in Cost Schedules, as elements and quantities + Project Library extended support for costing and scheduling",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/7342"
     },
@@ -65,8 +64,7 @@
       "author": "ZijianWang-ZW",
       "branch": "dev/bug/hybrid-kernel-sigsegv-fallback",
       "head": "370eea1",
-      "reason": "Fails to merge against base (problem with PR itself)",
-      "status": "failed",
+      "status": "merged",
       "title": "Fix: hybrid kernel sigsegv fallback (0.8.0)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/7523"
     },
@@ -98,7 +96,7 @@
       "author": "falken10vdl",
       "branch": "clipboard-module",
       "head": "4bc21f8",
-      "status": "merged",
+      "status": "skipped_conflict",
       "title": "First version clipboard module. 3 modes available (RENAME, DUPLICATE, DESTINATION)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/7669"
     },
@@ -170,8 +168,7 @@
       "author": "theoryshaw",
       "branch": "default_relative_path",
       "head": "6b9dbeb",
-      "reason": "Fails to merge against base (problem with PR itself)",
-      "status": "failed",
+      "status": "merged",
       "title": "Closes #7765: Default IFC file path to relative and auto-convert on blend save",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/7795"
     },
@@ -179,8 +176,7 @@
       "author": "theoryshaw",
       "branch": "ManualDrawingReference",
       "head": "3409c65",
-      "reason": "Fails to merge against base (problem with PR itself)",
-      "status": "failed",
+      "status": "merged",
       "title": "Manual drawing reference",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/7798"
     },
@@ -220,8 +216,7 @@
       "author": "theoryshaw",
       "branch": "slab_issues",
       "head": "ae1c544",
-      "reason": "Fails to merge against base (problem with PR itself)",
-      "status": "failed",
+      "status": "merged",
       "title": "Fix #7838: Fix slab layer direction and thickness offset",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/7839"
     },
@@ -365,8 +360,7 @@
       "author": "theoryshaw",
       "branch": "inset_section_endpoints",
       "head": "738110b",
-      "reason": "Fails to merge against base (problem with PR itself)",
-      "status": "failed",
+      "status": "merged",
       "title": "Closes #6321: Auto-snap SECTION endpoints to drawing border",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/7965"
     },
@@ -462,7 +456,7 @@
       "author": "theoryshaw",
       "branch": "parametric_dimensions",
       "head": "053d8e9",
-      "status": "merged",
+      "status": "skipped_conflict",
       "title": "Parametric dimensions",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8083"
     },
@@ -518,8 +512,7 @@
       "author": "theoryshaw",
       "branch": "drawing_render_overrides",
       "head": "0716e50",
-      "reason": "Fails to merge against base (problem with PR itself)",
-      "status": "failed",
+      "status": "merged",
       "title": "Add per-drawing render overrides (status_render module)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8171"
     },
@@ -535,8 +528,7 @@
       "author": "theoryshaw",
       "branch": "opening-template-on-type",
       "head": "c0b7f37",
-      "reason": "Fails to merge against base (problem with PR itself)",
-      "status": "failed",
+      "status": "merged",
       "title": "Preserve custom opening geometry via a type-level Reference template",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8200"
     },
@@ -544,8 +536,7 @@
       "author": "theoryshaw",
       "branch": "dev-notes-system",
       "head": "8ece379",
-      "reason": "Fails to merge against base (problem with PR itself)",
-      "status": "failed",
+      "status": "merged",
       "title": "Dev notes system",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8201"
     },
@@ -586,8 +577,7 @@
       "author": "theoryshaw",
       "branch": "Linked_File_Features",
       "head": "9fd119b",
-      "reason": "Fails to merge against base (problem with PR itself)",
-      "status": "failed",
+      "status": "skipped_conflict",
       "title": "Linked file features",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8242"
     },
@@ -643,7 +633,7 @@
       "author": "BIMvoice",
       "branch": "fix/raycast-none-verts-8187",
       "head": "a5ce824",
-      "status": "merged",
+      "status": "skipped_conflict",
       "title": "Bonsai: skip fully off-screen edges in 2D proximity snap (#8187)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8261"
     },
@@ -651,7 +641,7 @@
       "author": "BIMvoice",
       "branch": "fix/selector-material-filters-6787",
       "head": "6ccbff8",
-      "status": "merged",
+      "status": "skipped_conflict",
       "title": "Selector: fix material != and NULL filtering (#6787)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8264"
     },
@@ -659,7 +649,7 @@
       "author": "BIMvoice",
       "branch": "feat/cost-total-applied-value-5912",
       "head": "c06fda0",
-      "status": "merged",
+      "status": "skipped_conflict",
       "title": "util.cost: add calculate_total_applied_value (#5912)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8266"
     },
@@ -747,7 +737,7 @@
       "author": "BIMvoice",
       "branch": "fix-msp2ifc-optional-elements-5556",
       "head": "f8d48de",
-      "status": "merged",
+      "status": "skipped_conflict",
       "title": "ifc4d: MSP2Ifc tolerates optional task elements (#5556)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8285"
     },
@@ -827,7 +817,7 @@
       "author": "BIMvoice",
       "branch": "fix-get-part-of-product-none-repmaps-8081",
       "head": "d971623",
-      "status": "merged",
+      "status": "skipped_conflict",
       "title": "Fix get_part_of_product crash and IFC2X3 typo (#8081)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8317"
     },
@@ -843,7 +833,7 @@
       "author": "BIMvoice",
       "branch": "fix-8233-duplicate-linked-aggregate",
       "head": "c3b8202",
-      "status": "skipped_conflict",
+      "status": "merged",
       "title": "Retain linked aggregates when duplicating an aggregate (#8233)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8319"
     },
@@ -915,7 +905,7 @@
       "author": "BIMvoice",
       "branch": "qto-segment-length-from-geometry",
       "head": "a1c7612",
-      "status": "merged",
+      "status": "skipped_conflict",
       "title": "ifc5d: measure segment length from geometry when it is not a supported extrusion",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8332"
     },
@@ -939,7 +929,7 @@
       "author": "BIMvoice",
       "branch": "fix-3019-nested-mapped-item",
       "head": "db48b9a",
-      "status": "skipped_conflict",
+      "status": "merged",
       "title": "util.representation + Bonsai: fix two nested mapped-item transform bugs (#3019)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8335"
     },
@@ -1043,7 +1033,7 @@
       "author": "BIMvoice",
       "branch": "fix-4790-regen-style",
       "head": "abb4309",
-      "status": "merged",
+      "status": "skipped_conflict",
       "title": "Bonsai: preserve IfcStyledItem when regenerating a wall body (#4790)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8353"
     },
@@ -1057,8 +1047,8 @@
     }
   },
   "release": {
-    "tag": "v0.8.6-alpha2608071322",
-    "url": "https://github.com/OpeningDesign/bonsaiPR/releases/tag/v0.8.6-alpha2608071322"
+    "tag": "v0.8.6-alpha2608071443",
+    "url": "https://github.com/OpeningDesign/bonsaiPR/releases/tag/v0.8.6-alpha2608071443"
   },
   "schema": 1
 }
