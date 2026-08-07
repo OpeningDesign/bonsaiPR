@@ -7,13 +7,14 @@
     "skipped_draft": 0,
     "total": 129
   },
-  "generated_at": "2026-08-07T12:54:11Z",
+  "generated_at": "2026-08-07T13:38:15Z",
   "merge_order": "recorded",
   "prs": {
     "5452": {
       "author": "chiragsingh1711",
       "branch": "light/newUI",
       "head": "ac18195",
+      "reason": "Fails to merge against base (problem with PR itself)",
       "status": "failed",
       "title": "Radiance Rendering Changes",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/5452"
@@ -22,6 +23,7 @@
       "author": "Rob2309",
       "branch": "general-mirroring",
       "head": "4ffc70e",
+      "reason": "Fails to merge against base (problem with PR itself)",
       "status": "failed",
       "title": "Add true object mirroring operator",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/7003"
@@ -30,6 +32,7 @@
       "author": "DimitriosThe",
       "branch": "v0.8.0",
       "head": "e56926e",
+      "reason": "Fails to merge against base (problem with PR itself)",
       "status": "failed",
       "title": "#7331 related: Modifications to include IfcSpace entities in Cost Schedules, as elements and quantities + Project Library extended support for costing and scheduling",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/7342"
@@ -62,6 +65,7 @@
       "author": "ZijianWang-ZW",
       "branch": "dev/bug/hybrid-kernel-sigsegv-fallback",
       "head": "370eea1",
+      "reason": "Fails to merge against base (problem with PR itself)",
       "status": "failed",
       "title": "Fix: hybrid kernel sigsegv fallback (0.8.0)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/7523"
@@ -166,6 +170,7 @@
       "author": "theoryshaw",
       "branch": "default_relative_path",
       "head": "6b9dbeb",
+      "reason": "Fails to merge against base (problem with PR itself)",
       "status": "failed",
       "title": "Closes #7765: Default IFC file path to relative and auto-convert on blend save",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/7795"
@@ -174,6 +179,7 @@
       "author": "theoryshaw",
       "branch": "ManualDrawingReference",
       "head": "3409c65",
+      "reason": "Fails to merge against base (problem with PR itself)",
       "status": "failed",
       "title": "Manual drawing reference",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/7798"
@@ -214,6 +220,7 @@
       "author": "theoryshaw",
       "branch": "slab_issues",
       "head": "ae1c544",
+      "reason": "Fails to merge against base (problem with PR itself)",
       "status": "failed",
       "title": "Fix #7838: Fix slab layer direction and thickness offset",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/7839"
@@ -358,6 +365,7 @@
       "author": "theoryshaw",
       "branch": "inset_section_endpoints",
       "head": "738110b",
+      "reason": "Fails to merge against base (problem with PR itself)",
       "status": "failed",
       "title": "Closes #6321: Auto-snap SECTION endpoints to drawing border",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/7965"
@@ -510,6 +518,7 @@
       "author": "theoryshaw",
       "branch": "drawing_render_overrides",
       "head": "0716e50",
+      "reason": "Fails to merge against base (problem with PR itself)",
       "status": "failed",
       "title": "Add per-drawing render overrides (status_render module)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8171"
@@ -526,6 +535,7 @@
       "author": "theoryshaw",
       "branch": "opening-template-on-type",
       "head": "c0b7f37",
+      "reason": "Fails to merge against base (problem with PR itself)",
       "status": "failed",
       "title": "Preserve custom opening geometry via a type-level Reference template",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8200"
@@ -534,6 +544,7 @@
       "author": "theoryshaw",
       "branch": "dev-notes-system",
       "head": "8ece379",
+      "reason": "Fails to merge against base (problem with PR itself)",
       "status": "failed",
       "title": "Dev notes system",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8201"
@@ -566,6 +577,7 @@
       "author": "theoryshaw",
       "branch": "Additional_Selection_and_Deselection_Tools",
       "head": "03b3d3f",
+      "reason": "Fails to merge against base (problem with PR itself)",
       "status": "failed",
       "title": "Additional selection and deselection tools",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8241"
@@ -574,6 +586,7 @@
       "author": "theoryshaw",
       "branch": "Linked_File_Features",
       "head": "9fd119b",
+      "reason": "Fails to merge against base (problem with PR itself)",
       "status": "failed",
       "title": "Linked file features",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8242"
@@ -1044,8 +1057,8 @@
     }
   },
   "release": {
-    "tag": null,
-    "url": null
+    "tag": "v0.8.6-alpha2608071322",
+    "url": "https://github.com/OpeningDesign/bonsaiPR/releases/tag/v0.8.6-alpha2608071322"
   },
   "schema": 1
 }
