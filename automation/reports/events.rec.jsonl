@@ -31,3 +31,14 @@
 {"ts": "2026-08-08T13:44:45Z", "order": "recorded", "pr": 8317, "event": "status", "from": "skipped_conflict", "to": "merged"}
 {"ts": "2026-08-08T13:44:45Z", "order": "recorded", "pr": 8332, "event": "status", "from": "skipped_conflict", "to": "merged"}
 {"ts": "2026-08-08T13:44:45Z", "order": "recorded", "pr": 8353, "event": "status", "from": "skipped_conflict", "to": "merged"}
+{"ts": "2026-08-08T20:52:20Z", "order": "recorded", "pr": 7003, "event": "updated", "status": "merged", "from_head": "4ffc70e", "to_head": "bcd772a"}
+{"ts": "2026-08-08T20:52:20Z", "order": "recorded", "pr": 8083, "event": "updated", "status": "merged", "from_head": "053d8e9", "to_head": "1c9d45d"}
+{"ts": "2026-08-08T20:52:20Z", "order": "recorded", "pr": 8241, "event": "updated", "status": "merged", "from_head": "03b3d3f", "to_head": "be8595e"}
+{"ts": "2026-08-08T20:52:20Z", "order": "recorded", "pr": 8242, "event": "updated", "status": "merged", "from_head": "9fd119b", "to_head": "ee43ed5"}
+{"ts": "2026-08-08T20:52:20Z", "order": "recorded", "pr": 8261, "event": "updated", "status": "merged", "from_head": "a5ce824", "to_head": "83b2b89"}
+{"ts": "2026-08-08T20:52:20Z", "order": "recorded", "pr": 8264, "event": "updated", "status": "merged", "from_head": "6ccbff8", "to_head": "1d6afde"}
+{"ts": "2026-08-08T20:52:20Z", "order": "recorded", "pr": 8266, "event": "updated", "status": "merged", "from_head": "c06fda0", "to_head": "af2a9f3"}
+{"ts": "2026-08-08T20:52:20Z", "order": "recorded", "pr": 8285, "event": "updated", "status": "merged", "from_head": "f8d48de", "to_head": "3309598"}
+{"ts": "2026-08-08T20:52:20Z", "order": "recorded", "pr": 8317, "event": "updated", "status": "merged", "from_head": "d971623", "to_head": "1fa61db"}
+{"ts": "2026-08-08T20:52:20Z", "order": "recorded", "pr": 8332, "event": "updated", "status": "merged", "from_head": "a1c7612", "to_head": "847c666"}
+{"ts": "2026-08-08T20:52:20Z", "order": "recorded", "pr": 8353, "event": "updated", "status": "merged", "from_head": "abb4309", "to_head": "153cb16"}

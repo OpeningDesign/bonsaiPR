@@ -8,7 +8,7 @@
     "skipped_draft": 0,
     "total": 129
   },
-  "generated_at": "2026-08-08T13:44:45Z",
+  "generated_at": "2026-08-08T20:52:20Z",
   "merge_order": "recorded",
   "prs": {
     "5452": {
@@ -22,8 +22,10 @@
     "7003": {
       "author": "Rob2309",
       "branch": "general-mirroring",
-      "head": "4ffc70e",
+      "head": "bcd772a",
+      "pinned": true,
       "status": "merged",
+      "tip": "4ffc70e",
       "title": "Add true object mirroring operator",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/7003"
     },
@@ -454,8 +456,10 @@
     "8083": {
       "author": "theoryshaw",
       "branch": "parametric_dimensions",
-      "head": "053d8e9",
+      "head": "1c9d45d",
+      "pinned": true,
       "status": "merged",
+      "tip": "053d8e9",
       "title": "Parametric dimensions",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8083"
     },
@@ -566,16 +570,20 @@
     "8241": {
       "author": "theoryshaw",
       "branch": "Additional_Selection_and_Deselection_Tools",
-      "head": "03b3d3f",
+      "head": "be8595e",
+      "pinned": true,
       "status": "merged",
+      "tip": "03b3d3f",
       "title": "Additional selection and deselection tools",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8241"
     },
     "8242": {
       "author": "theoryshaw",
       "branch": "Linked_File_Features",
-      "head": "9fd119b",
+      "head": "ee43ed5",
+      "pinned": true,
       "status": "merged",
+      "tip": "9fd119b",
       "title": "Linked file features",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8242"
     },
@@ -630,24 +638,30 @@
     "8261": {
       "author": "BIMvoice",
       "branch": "fix/raycast-none-verts-8187",
-      "head": "a5ce824",
+      "head": "83b2b89",
+      "pinned": true,
       "status": "merged",
+      "tip": "a5ce824",
       "title": "Bonsai: skip fully off-screen edges in 2D proximity snap (#8187)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8261"
     },
     "8264": {
       "author": "BIMvoice",
       "branch": "fix/selector-material-filters-6787",
-      "head": "6ccbff8",
+      "head": "1d6afde",
+      "pinned": true,
       "status": "merged",
+      "tip": "6ccbff8",
       "title": "Selector: fix material != and NULL filtering (#6787)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8264"
     },
     "8266": {
       "author": "BIMvoice",
       "branch": "feat/cost-total-applied-value-5912",
-      "head": "c06fda0",
+      "head": "af2a9f3",
+      "pinned": true,
       "status": "merged",
+      "tip": "c06fda0",
       "title": "util.cost: add calculate_total_applied_value (#5912)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8266"
     },
@@ -734,8 +748,10 @@
     "8285": {
       "author": "BIMvoice",
       "branch": "fix-msp2ifc-optional-elements-5556",
-      "head": "f8d48de",
+      "head": "3309598",
+      "pinned": true,
       "status": "merged",
+      "tip": "f8d48de",
       "title": "ifc4d: MSP2Ifc tolerates optional task elements (#5556)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8285"
     },
@@ -814,8 +830,10 @@
     "8317": {
       "author": "BIMvoice",
       "branch": "fix-get-part-of-product-none-repmaps-8081",
-      "head": "d971623",
+      "head": "1fa61db",
+      "pinned": true,
       "status": "merged",
+      "tip": "d971623",
       "title": "Fix get_part_of_product crash and IFC2X3 typo (#8081)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8317"
     },
@@ -902,8 +920,10 @@
     "8332": {
       "author": "BIMvoice",
       "branch": "qto-segment-length-from-geometry",
-      "head": "a1c7612",
+      "head": "847c666",
+      "pinned": true,
       "status": "merged",
+      "tip": "a1c7612",
       "title": "ifc5d: measure segment length from geometry when it is not a supported extrusion",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8332"
     },
@@ -1030,8 +1050,10 @@
     "8353": {
       "author": "BIMvoice",
       "branch": "fix-4790-regen-style",
-      "head": "abb4309",
+      "head": "153cb16",
+      "pinned": true,
       "status": "merged",
+      "tip": "abb4309",
       "title": "Bonsai: preserve IfcStyledItem when regenerating a wall body (#4790)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8353"
     },
@@ -1045,8 +1067,8 @@
     }
   },
   "release": {
-    "tag": "v0.8.6-alpha2608081329",
-    "url": "https://github.com/OpeningDesign/bonsaiPR/releases/tag/v0.8.6-alpha2608081329"
+    "tag": null,
+    "url": null
   },
   "schema": 1
 }
