@@ -8,8 +8,18 @@
     "skipped_draft": 0,
     "total": 129
   },
-  "generated_at": "2026-08-08T20:52:20Z",
+  "generated_at": "2026-08-08T21:49:50Z",
   "merge_order": "recorded",
+  "profile": {
+    "base_branch": "v0.8.0",
+    "base_commit": "644b92263d1da7559bdc9f05607121fb8c4723d7",
+    "digest": "sha256:1dc2a1d13c7c02442fc6b9a6fcf3f3e0f9c6f0a19a9e18b51fafffade7bd084c",
+    "mode": "allowlist",
+    "name": "openingdesign",
+    "pinned_prs": 160,
+    "selected": 160,
+    "url": "https://github.com/OpeningDesign/bonsaiPR/blob/main/profiles/openingdesign.json"
+  },
   "prs": {
     "5452": {
       "author": "chiragsingh1711",
@@ -1066,9 +1076,14 @@
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8393"
     }
   },
+  "publisher": {
+    "contact": "https://github.com/OpeningDesign",
+    "id": "OpeningDesign",
+    "instance": "https://github.com/OpeningDesign/bonsaiPR"
+  },
   "release": {
     "tag": null,
     "url": null
   },
-  "schema": 1
+  "schema": 2
 }
