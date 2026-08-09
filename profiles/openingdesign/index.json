@@ -5,8 +5,8 @@
     {
       "schema_version": "1.0.0",
       "id": "bonsaiPR",
-      "name": "BonsaiPR",
-      "tagline": "On-demand Bonsai builds with merged PRs for IfcOpenShell.",
+      "name": "BonsaiPR \u00b7 openingdesign",
+      "tagline": "Bonsai built from the 'openingdesign' curation of open PRs",
       "version": "0.8.6-alpha260809",
       "type": "add-on",
       "maintainer": "falken10vdl <falken10vdl@gmail.com>",
@@ -14,7 +14,7 @@
         "SPDX:GPL-3.0-or-later"
       ],
       "blender_version_min": "4.2.0",
-      "website": "https://github.com/falken10vdl/bonsaiPR",
+      "website": "https://github.com/OpeningDesign/bonsaiPR/blob/main/profiles/openingdesign.json",
       "permissions": {
         "network": "For update checks and remote asset downloads",
         "files": "Load and save IFCs, BCF, and other project files from disk",
@@ -53,8 +53,8 @@
     {
       "schema_version": "1.0.0",
       "id": "bonsaiPR",
-      "name": "BonsaiPR",
-      "tagline": "On-demand Bonsai builds with merged PRs for IfcOpenShell.",
+      "name": "BonsaiPR \u00b7 openingdesign",
+      "tagline": "Bonsai built from the 'openingdesign' curation of open PRs",
       "version": "0.8.6-alpha260809",
       "type": "add-on",
       "maintainer": "falken10vdl <falken10vdl@gmail.com>",
@@ -62,7 +62,7 @@
         "SPDX:GPL-3.0-or-later"
       ],
       "blender_version_min": "4.2.0",
-      "website": "https://github.com/falken10vdl/bonsaiPR",
+      "website": "https://github.com/OpeningDesign/bonsaiPR/blob/main/profiles/openingdesign.json",
       "permissions": {
         "network": "For update checks and remote asset downloads",
         "files": "Load and save IFCs, BCF, and other project files from disk",
@@ -101,8 +101,8 @@
     {
       "schema_version": "1.0.0",
       "id": "bonsaiPR",
-      "name": "BonsaiPR",
-      "tagline": "On-demand Bonsai builds with merged PRs for IfcOpenShell.",
+      "name": "BonsaiPR \u00b7 openingdesign",
+      "tagline": "Bonsai built from the 'openingdesign' curation of open PRs",
       "version": "0.8.6-alpha260809",
       "type": "add-on",
       "maintainer": "falken10vdl <falken10vdl@gmail.com>",
@@ -110,7 +110,7 @@
         "SPDX:GPL-3.0-or-later"
       ],
       "blender_version_min": "4.2.0",
-      "website": "https://github.com/falken10vdl/bonsaiPR",
+      "website": "https://github.com/OpeningDesign/bonsaiPR/blob/main/profiles/openingdesign.json",
       "permissions": {
         "network": "For update checks and remote asset downloads",
         "files": "Load and save IFCs, BCF, and other project files from disk",
@@ -149,8 +149,8 @@
     {
       "schema_version": "1.0.0",
       "id": "bonsaiPR",
-      "name": "BonsaiPR",
-      "tagline": "On-demand Bonsai builds with merged PRs for IfcOpenShell.",
+      "name": "BonsaiPR \u00b7 openingdesign",
+      "tagline": "Bonsai built from the 'openingdesign' curation of open PRs",
       "version": "0.8.6-alpha260809",
       "type": "add-on",
       "maintainer": "falken10vdl <falken10vdl@gmail.com>",
@@ -158,7 +158,7 @@
         "SPDX:GPL-3.0-or-later"
       ],
       "blender_version_min": "4.2.0",
-      "website": "https://github.com/falken10vdl/bonsaiPR",
+      "website": "https://github.com/OpeningDesign/bonsaiPR/blob/main/profiles/openingdesign.json",
       "permissions": {
         "network": "For update checks and remote asset downloads",
         "files": "Load and save IFCs, BCF, and other project files from disk",
@@ -197,8 +197,8 @@
     {
       "schema_version": "1.0.0",
       "id": "bonsaiPR",
-      "name": "BonsaiPR",
-      "tagline": "On-demand Bonsai builds with merged PRs for IfcOpenShell.",
+      "name": "BonsaiPR \u00b7 openingdesign",
+      "tagline": "Bonsai built from the 'openingdesign' curation of open PRs",
       "version": "0.8.6-alpha260806",
       "type": "add-on",
       "maintainer": "falken10vdl <falken10vdl@gmail.com>",
@@ -206,7 +206,7 @@
         "SPDX:GPL-3.0-or-later"
       ],
       "blender_version_min": "5.1.0",
-      "website": "https://github.com/falken10vdl/bonsaiPR",
+      "website": "https://github.com/OpeningDesign/bonsaiPR/blob/main/profiles/openingdesign.json",
       "permissions": {
         "network": "For update checks and remote asset downloads",
         "files": "Load and save IFCs, BCF, and other project files from disk",
@@ -245,8 +245,8 @@
     {
       "schema_version": "1.0.0",
       "id": "bonsaiPR",
-      "name": "BonsaiPR",
-      "tagline": "On-demand Bonsai builds with merged PRs for IfcOpenShell.",
+      "name": "BonsaiPR \u00b7 openingdesign",
+      "tagline": "Bonsai built from the 'openingdesign' curation of open PRs",
       "version": "0.8.6-alpha260806",
       "type": "add-on",
       "maintainer": "falken10vdl <falken10vdl@gmail.com>",
@@ -254,7 +254,7 @@
         "SPDX:GPL-3.0-or-later"
       ],
       "blender_version_min": "5.1.0",
-      "website": "https://github.com/falken10vdl/bonsaiPR",
+      "website": "https://github.com/OpeningDesign/bonsaiPR/blob/main/profiles/openingdesign.json",
       "permissions": {
         "network": "For update checks and remote asset downloads",
         "files": "Load and save IFCs, BCF, and other project files from disk",
@@ -293,8 +293,8 @@
     {
       "schema_version": "1.0.0",
       "id": "bonsaiPR",
-      "name": "BonsaiPR",
-      "tagline": "On-demand Bonsai builds with merged PRs for IfcOpenShell.",
+      "name": "BonsaiPR \u00b7 openingdesign",
+      "tagline": "Bonsai built from the 'openingdesign' curation of open PRs",
       "version": "0.8.6-alpha260806",
       "type": "add-on",
       "maintainer": "falken10vdl <falken10vdl@gmail.com>",
@@ -302,7 +302,7 @@
         "SPDX:GPL-3.0-or-later"
       ],
       "blender_version_min": "5.1.0",
-      "website": "https://github.com/falken10vdl/bonsaiPR",
+      "website": "https://github.com/OpeningDesign/bonsaiPR/blob/main/profiles/openingdesign.json",
       "permissions": {
         "network": "For update checks and remote asset downloads",
         "files": "Load and save IFCs, BCF, and other project files from disk",
