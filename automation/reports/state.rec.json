@@ -8,12 +8,12 @@
     "skipped_draft": 0,
     "total": 129
   },
-  "generated_at": "2026-08-09T21:17:53Z",
+  "generated_at": "2026-08-10T00:48:44Z",
   "merge_order": "recorded",
   "profile": {
     "base_branch": "v0.8.0",
     "base_commit": "644b92263d1da7559bdc9f05607121fb8c4723d7",
-    "digest": "sha256:ae077c2e6e00a450d76fe8fc54401251b0f5d70779f2ab7d886f77fca5018ac2",
+    "digest": "sha256:13464bc3311d7f1b59a59ab7e9a6e4aa9e29e8af5866beae6abd5a2c56397f4d",
     "mode": "allowlist",
     "name": "openingdesign",
     "pinned_prs": 156,
@@ -32,7 +32,7 @@
     "7003": {
       "author": "Rob2309",
       "branch": "general-mirroring",
-      "head": "bcd772a",
+      "head": "a489f3e",
       "pinned": true,
       "status": "merged",
       "tip": "4ffc70e",
@@ -580,7 +580,7 @@
     "8241": {
       "author": "theoryshaw",
       "branch": "Additional_Selection_and_Deselection_Tools",
-      "head": "be8595e",
+      "head": "e6697d0",
       "pinned": true,
       "status": "merged",
       "tip": "03b3d3f",

@@ -42,3 +42,5 @@
 {"ts": "2026-08-08T20:52:20Z", "order": "recorded", "pr": 8317, "event": "updated", "status": "merged", "from_head": "d971623", "to_head": "1fa61db"}
 {"ts": "2026-08-08T20:52:20Z", "order": "recorded", "pr": 8332, "event": "updated", "status": "merged", "from_head": "a1c7612", "to_head": "847c666"}
 {"ts": "2026-08-08T20:52:20Z", "order": "recorded", "pr": 8353, "event": "updated", "status": "merged", "from_head": "abb4309", "to_head": "153cb16"}
+{"ts": "2026-08-10T00:48:44Z", "order": "recorded", "pr": 7003, "event": "updated", "status": "merged", "from_head": "bcd772a", "to_head": "a489f3e"}
+{"ts": "2026-08-10T00:48:44Z", "order": "recorded", "pr": 8241, "event": "updated", "status": "merged", "from_head": "be8595e", "to_head": "e6697d0"}
