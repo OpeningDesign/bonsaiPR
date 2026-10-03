@@ -33,9 +33,15 @@ bit us, and what is still open.
 | — | `docs/TUTORIAL.md` — curator + subscriber walkthrough | done |
 | 4 / 5 | maintainer digest / attestations | **need buy-in — nothing to build until someone asks** |
 
-Live instance: `OpeningDesign/bonsaiPR`, profile `openingdesign` (156 PRs, 156
-pins, 129 of them still open, pinned base `644b92263d`). Latest run: **128 of 129 merged**, 11 of them
-via pinned fallback. Publishes `state.rec.json`, `events.rec.jsonl`,
+Live instance: `OpeningDesign/bonsaiPR`, profile `openingdesign`. On 2026-10-03
+the profile was retargeted from v0.8.0 (156 PRs, pinned base `644b92263d`; last
+run **128 of 129 merged**, 11 via pinned fallback) to **v0.9.0 at tip**: the
+same branch's 119 still-open PRs, its recorded order except #8228 ahead of
+#7813, and 110 pins, each the head that merged in a full in-order replay at
+`d1d6a6b78d`. Not yet built there; `base_advisor.py --in-stack` predicts 110 of
+119. That day six stack collisions were fixed in the PR branches themselves
+(#8083, #8201, #7940/#8241, #8319, #8242, #8171) and one by order (#8228 over
+#7813, which now drops). Publishes `state.rec.json`, `events.rec.jsonl`,
 `rivals.rec.json`, `pinned.rec.json`, `delta.rec.md`, and a curated Blender feed
 at `profiles/openingdesign/index.json`.
 
@@ -111,6 +117,24 @@ both statements, not routine.
 - **`git merge` writes conflict output to stdout, not stderr.** The pipeline logs
   `stderr`, so an ordinary conflict shows as `❌ Failed to apply PR #N:` with
   nothing after the colon. Empty means conflict, not "no information".
+- **A profile's `base.branch` was read and then ignored.** `bonsaipr_profile.py`
+  parsed it, but stages 0-2 took the branch only from `SOURCE_BASE_BRANCH`, which
+  the workflow hardcoded to `v0.8.0`. A v0.9.0 profile without a pinned commit
+  would have merged onto v0.8.0's tip, been labelled 0.8, and finished green.
+  Caught while preparing the first v0.9.0 profile, before it ran. Now
+  `resolve_base_branch()` decides for every stage: the profile's branch wins,
+  the env var may only agree with it, and the workflow exports what the profile
+  says instead of hardcoding it.
+- **On Windows, text-mode stdin turns `\n` into `\r\n`.** `base_advisor.py`
+  piped its `delete refs/baseadv/<n>` list to `git update-ref --stdin` with
+  `text=True`; git read every ref name with a trailing CR, rejected the batch,
+  and deleted nothing. The result was captured and never checked, so every run
+  on Windows left one ref per scored PR in the user's repo, each pinning a PR's
+  objects against gc, while its own comment promised it never would. Found
+  2026-10-03 when 138 refs survived a run. Fixed by sending bytes and reporting
+  leftovers. `git patch-id` is unaffected (it ignores whitespace), so the
+  same pattern in `distill.py` and stage 0 is harmless, but anything else
+  that feeds git line-oriented stdin needs bytes.
 - **`inputs` is empty on a `schedule` trigger.** Dispatch defaults do not apply,
   so `${{ inputs.stages }}` is `""` on a cron run and every expression built on
   it silently takes the else branch. Uncommenting a schedule would have built
@@ -203,7 +227,10 @@ different merge order. Neither would have been caught by exit codes.
 - `bonsaipr_profile.py`, `federate.py`, `distill.py` and `base_advisor.py` run on
   a bare Python.
 - `base_advisor.py` writes scratch refs under `refs/baseadv/` and deletes them in
-  a `finally` — if it is ever killed mid-run, clean them by hand.
+  a `finally`, warning if any survive. If it is ever killed mid-run, clean them
+  by hand: `git for-each-ref --format="delete %(refname)" refs/baseadv/ | git update-ref --stdin`.
+  Before 2026-10-03 the cleanup silently did nothing on Windows (see above), so
+  a repo it ran against there may still hold them.
 
 ---
 
