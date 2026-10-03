@@ -3,12 +3,12 @@
   "base_commit": "d1d6a6b78da37038e3841055c747332aa14d0f82",
   "counts": {
     "failed": 8,
-    "merged": 110,
-    "skipped_conflict": 1,
+    "merged": 109,
+    "skipped_conflict": 2,
     "skipped_draft": 0,
     "total": 119
   },
-  "generated_at": "2026-10-03T19:32:03Z",
+  "generated_at": "2026-10-03T19:47:24Z",
   "merge_order": "recorded",
   "profile": {
     "base_branch": "v0.9.0",
@@ -569,7 +569,7 @@
       "author": "BIMvoice",
       "branch": "fix/edit-pset-empty-numeric-4112",
       "head": "12c81e3",
-      "status": "merged",
+      "status": "skipped_conflict",
       "title": "pset.edit_pset: treat an empty string for a numeric property as no value (#4112)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8251"
     },
