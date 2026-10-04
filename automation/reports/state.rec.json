@@ -3,17 +3,17 @@
   "base_commit": "d1d6a6b78da37038e3841055c747332aa14d0f82",
   "counts": {
     "failed": 8,
-    "merged": 131,
+    "merged": 132,
     "skipped_conflict": 1,
-    "skipped_draft": 1,
+    "skipped_draft": 0,
     "total": 141
   },
-  "generated_at": "2026-10-04T02:00:28Z",
+  "generated_at": "2026-10-04T02:07:40Z",
   "merge_order": "recorded",
   "profile": {
     "base_branch": "v0.9.0",
     "base_commit": null,
-    "digest": "sha256:ca6657b078337d592d5611a2b64aa78adcae60f38431201b209420db33e1d954",
+    "digest": "sha256:21438e13c911153379f13372a9360808ec16ce9edc11da8a33902dc876a5e581",
     "mode": "allowlist",
     "name": "openingdesign",
     "pinned_prs": 132,
@@ -1033,7 +1033,7 @@
       "author": "BIMvoice",
       "branch": "feat-4779-material-merge",
       "head": "790be3e",
-      "status": "skipped_draft",
+      "status": "merged",
       "title": "Bonsai + ifcopenshell.api: merge/reassign redundant materials into one",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8928"
     },
@@ -1156,8 +1156,8 @@
     "instance": "https://github.com/OpeningDesign/bonsaiPR"
   },
   "release": {
-    "tag": null,
-    "url": null
+    "tag": "v0.9.0-alpha2610040206",
+    "url": "https://github.com/OpeningDesign/bonsaiPR/releases/tag/v0.9.0-alpha2610040206"
   },
   "schema": 2
 }
