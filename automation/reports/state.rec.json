@@ -3,21 +3,21 @@
   "base_commit": "d1d6a6b78da37038e3841055c747332aa14d0f82",
   "counts": {
     "failed": 8,
-    "merged": 133,
+    "merged": 152,
     "skipped_conflict": 1,
     "skipped_draft": 0,
-    "total": 142
+    "total": 161
   },
-  "generated_at": "2026-10-04T18:40:03Z",
+  "generated_at": "2026-10-04T19:38:25Z",
   "merge_order": "recorded",
   "profile": {
     "base_branch": "v0.9.0",
     "base_commit": null,
-    "digest": "sha256:5e99b8a4f66a2e68cd694a5c51808c8e369fc57127cc1916f2bce0d1f6fb5a47",
+    "digest": "sha256:1cf579b01634184bacb61d2f8c56da05d5fd052fc3f25ffce363f02110031d17",
     "mode": "allowlist",
     "name": "openingdesign",
-    "pinned_prs": 132,
-    "selected": 142,
+    "pinned_prs": 152,
+    "selected": 161,
     "url": "https://github.com/OpeningDesign/bonsaiPR/blob/main/profiles/openingdesign.json"
   },
   "prs": {
@@ -28,6 +28,14 @@
       "status": "merged",
       "title": "Radiance Rendering Changes",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/5452"
+    },
+    "6933": {
+      "author": "theoryshaw",
+      "branch": "fix_6931",
+      "head": "f00c102",
+      "status": "merged",
+      "title": "proposed fix for #6931",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/6933"
     },
     "7003": {
       "author": "Rob2309",
@@ -989,6 +997,22 @@
       "title": "Fix horizontal profile editing for sloped LAYER3 slabs",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8429"
     },
+    "8448": {
+      "author": "BIMvoice",
+      "branch": "fix-4103-section-marker-direction",
+      "head": "4c4750a",
+      "status": "merged",
+      "title": "Bonsai: orient the section marker to the view direction (#4103)",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8448"
+    },
+    "8548": {
+      "author": "theoryshaw",
+      "branch": "placement-storey-elevation",
+      "head": "eb2ec58",
+      "status": "merged",
+      "title": "Bonsai: add editable \"Elevation from Storey\" field to Placement panel",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8548"
+    },
     "8598": {
       "author": "BIMvoice",
       "branch": "fix-4047-bounded-property-support",
@@ -1021,6 +1045,22 @@
       "title": "ifcpatch: fix MergeDuplicateTypes destroying distinct/cross-class types",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8610"
     },
+    "8658": {
+      "author": "theoryshaw",
+      "branch": "profile-length-per-instance",
+      "head": "c5ac395",
+      "status": "merged",
+      "title": "Bonsai: toggle a profile type's length between typed and per-instance",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8658"
+    },
+    "8663": {
+      "author": "theoryshaw",
+      "branch": "append-asset-material-styles",
+      "head": "c1186f8",
+      "status": "merged",
+      "title": "api.project.append_asset: preserve material styles reached via a layer set usage",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8663"
+    },
     "8668": {
       "author": "theoryshaw",
       "branch": "fix-8666-saferemoval-untracked-assertion",
@@ -1029,6 +1069,46 @@
       "title": "project.append_asset: don't crash on untracked removed element (#8666)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8668"
     },
+    "8669": {
+      "author": "theoryshaw",
+      "branch": "fix-8667-guid-collision-type-assign",
+      "head": "adeed6f",
+      "status": "merged",
+      "title": "project.append_asset: don't abort batch on GlobalId collision (#8667)",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8669"
+    },
+    "8674": {
+      "author": "BIMvoice",
+      "branch": "fix-4322-material-csv-import",
+      "head": "2ccb3b3",
+      "status": "merged",
+      "title": "Fix #4322. Support importing IfcMaterial and profile attributes and psets via Spreadsheet Import/Export",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8674"
+    },
+    "8706": {
+      "author": "theoryshaw",
+      "branch": "merge-duplicate-contexts",
+      "head": "563a9eb",
+      "status": "merged",
+      "title": "ifcpatch: add MergeDuplicateContexts recipe",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8706"
+    },
+    "8707": {
+      "author": "theoryshaw",
+      "branch": "fix-mergeprojects-dup-contexts",
+      "head": "df9e89a",
+      "status": "merged",
+      "title": "ifcpatch: stop MergeProjects leaving duplicate representation contexts",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8707"
+    },
+    "8718": {
+      "author": "BIMvoice",
+      "branch": "bv-2934-multiselect-parametric",
+      "head": "a14b4b9",
+      "status": "merged",
+      "title": "Bonsai: apply parametric representation edits across the whole selection",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8718"
+    },
     "8822": {
       "author": "theoryshaw",
       "branch": "fix-bbim-boolean-data-dict",
@@ -1036,6 +1116,14 @@
       "status": "merged",
       "title": "Bonsai: harden BBIM_Boolean.Data parsing against non-list payloads",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8822"
+    },
+    "8926": {
+      "author": "BIMvoice",
+      "branch": "feat-6241-fillet-unconnected-lines",
+      "head": "6a88d37",
+      "status": "merged",
+      "title": "Bonsai: fillet CAD tool works on unconnected lines (and no longer crashes)",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8926"
     },
     "8928": {
       "author": "BIMvoice",
@@ -1061,6 +1149,14 @@
       "title": "Bonsai: allow aggregating IfcAnnotation elements and moving them as a unit",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9018"
     },
+    "9044": {
+      "author": "BIMvoice",
+      "branch": "fix/7000-mats-category-selector",
+      "head": "223e263",
+      "status": "merged",
+      "title": "util.selector: resolve mats.Category via the material set item",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9044"
+    },
     "9054": {
       "author": "theoryshaw",
       "branch": "fix_copy_class_assigns_to_product_9049",
@@ -1069,6 +1165,30 @@
       "title": "copy_class: don't share the original's annotations with the duplicate (#9049, cause behind #4014)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9054"
     },
+    "9217": {
+      "author": "theoryshaw",
+      "branch": "fix-remove-floating-map-representation",
+      "head": "920b1e3",
+      "status": "merged",
+      "title": "Bonsai: remove_representation handles occurrence reps mapped to a floating map (#9216)",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9217"
+    },
+    "9228": {
+      "author": "theoryshaw",
+      "branch": "dev-environment-detect-python",
+      "head": "e7c53f1",
+      "status": "merged",
+      "title": "dev_environment.py: detect Blender's bundled Python from disk",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9228"
+    },
+    "9240": {
+      "author": "theoryshaw",
+      "branch": "dev-environment-locked-file",
+      "head": "da98554",
+      "status": "merged",
+      "title": "dev_environment.py: survive a locked file while symlinking",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9240"
+    },
     "9307": {
       "author": "theoryshaw",
       "branch": "fix-8603-underlay-render-visibility",
@@ -1076,6 +1196,22 @@
       "status": "merged",
       "title": "Fix #8603: drawing underlay renders the previously active drawing's objects",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9307"
+    },
+    "9311": {
+      "author": "theoryshaw",
+      "branch": "fix-drawing-linework-cache-and-degenerate-polygon",
+      "head": "57d73be",
+      "status": "merged",
+      "title": "fix(drawing): harden linework generation against bad cache and degene…",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9311"
+    },
+    "9316": {
+      "author": "theoryshaw",
+      "branch": "cad_join_clicked_side_9314",
+      "head": "96a4ba8",
+      "status": "merged",
+      "title": "CAD Join: keep the side of the edge you clicked, and remove edges in between",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9316"
     },
     "9318": {
       "author": "theoryshaw",
@@ -1149,6 +1285,22 @@
       "title": "Bonsai: flatten roof footprint instead of failing, keep path preview, direct_profile_edit support",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9515"
     },
+    "9517": {
+      "author": "theoryshaw",
+      "branch": "underside_union_clip_9516",
+      "head": "7b55b55",
+      "status": "merged",
+      "title": "Bonsai: fuse underside clip solids into one UNION tool (#9516)",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9517"
+    },
+    "9557": {
+      "author": "theoryshaw",
+      "branch": "restore_moved_sheet_files",
+      "head": "aef6571",
+      "status": "merged",
+      "title": "Bonsai: put back sheet files renamed in a session that was not saved",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9557"
+    },
     "9765": {
       "author": "theoryshaw",
       "branch": "strip_text_comments",
@@ -1164,8 +1316,8 @@
     "instance": "https://github.com/OpeningDesign/bonsaiPR"
   },
   "release": {
-    "tag": "v0.9.0-alpha2610041838",
-    "url": "https://github.com/OpeningDesign/bonsaiPR/releases/tag/v0.9.0-alpha2610041838"
+    "tag": null,
+    "url": null
   },
   "schema": 2
 }
