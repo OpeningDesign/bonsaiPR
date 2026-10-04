@@ -3,21 +3,21 @@
   "base_commit": "d1d6a6b78da37038e3841055c747332aa14d0f82",
   "counts": {
     "failed": 8,
-    "merged": 156,
+    "merged": 158,
     "skipped_conflict": 1,
     "skipped_draft": 0,
-    "total": 165
+    "total": 167
   },
-  "generated_at": "2026-10-04T21:41:42Z",
+  "generated_at": "2026-10-04T22:43:38Z",
   "merge_order": "recorded",
   "profile": {
     "base_branch": "v0.9.0",
     "base_commit": null,
-    "digest": "sha256:a859aa2b75bad3cd4a9da3408cec552ce1dcf0bdfff45c2927096722a8f31555",
+    "digest": "sha256:abd2290c1385489856fc93c08588b19d8b2773f84ae8c9900e7082b8247b1a2b",
     "mode": "allowlist",
     "name": "openingdesign",
-    "pinned_prs": 156,
-    "selected": 165,
+    "pinned_prs": 158,
+    "selected": 167,
     "url": "https://github.com/OpeningDesign/bonsaiPR/blob/main/profiles/openingdesign.json"
   },
   "prs": {
@@ -1245,6 +1245,14 @@
       "title": "Fix reflected plan drawings rebuilding their camera on every create_drawing",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9320"
     },
+    "9370": {
+      "author": "theoryshaw",
+      "branch": "fix-sheet-presentation-attr-ids",
+      "head": "35c2400",
+      "status": "merged",
+      "title": "Bonsai: namespace url(#id) presentation attributes and the sheet titleblock (#9369)",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9370"
+    },
     "9401": {
       "author": "theoryshaw",
       "branch": "filter_query_comments_9400",
@@ -1268,6 +1276,14 @@
       "status": "merged",
       "title": "Bonsai: resolve IFC save path to absolute before writing (fixes relative-path save failure)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9441"
+    },
+    "9469": {
+      "author": "theoryshaw",
+      "branch": "pr/remove-drawing-stale-data-id",
+      "head": "da219ed",
+      "status": "merged",
+      "title": "Bonsai: find a sheet's drawing by path when its data-id is stale",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9469"
     },
     "9478": {
       "author": "theoryshaw",
@@ -1348,8 +1364,8 @@
     "instance": "https://github.com/OpeningDesign/bonsaiPR"
   },
   "release": {
-    "tag": "v0.9.0-alpha2610042140",
-    "url": "https://github.com/OpeningDesign/bonsaiPR/releases/tag/v0.9.0-alpha2610042140"
+    "tag": null,
+    "url": null
   },
   "schema": 2
 }
