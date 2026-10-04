@@ -36,12 +36,15 @@ bit us, and what is still open.
 Live instance: `OpeningDesign/bonsaiPR`, profile `openingdesign`. On 2026-10-03
 the profile was retargeted from v0.8.0 (156 PRs, pinned base `644b92263d`; last
 run **128 of 129 merged**, 11 via pinned fallback) to **v0.9.0 at tip**: the
-same branch's 119 still-open PRs, its recorded order except #8228 ahead of
-#7813, and 110 pins, each the head that merged in a full in-order replay at
-`d1d6a6b78d`. Not yet built there; `base_advisor.py --in-stack` predicts 110 of
-119. That day six stack collisions were fixed in the PR branches themselves
-(#8083, #8201, #7940/#8241, #8319, #8242, #8171) and one by order (#8228 over
-#7813, which now drops). Publishes `state.rec.json`, `events.rec.jsonl`,
+same branch's still-open PRs, its recorded order except #8228 ahead of #7813.
+First built as 119 PRs (full run 37148950237: 109 merged; #8251 lost to a
+runner fetch error). Then 22 more, cherry-picked onto the branch in full and
+missed by `distill` until it learned to see them (see below), took it to 141
+PRs with 132 pins, each the head that merged in a full in-order replay at
+`d1d6a6b78d`; `base_advisor.py --in-stack` agrees, 132 of 141. That day seven
+stack collisions were fixed in the PR branches themselves (#8083, #8201,
+#7940/#8241, #8319, #8242, #8171, #9494) and one by order (#8228 over #7813,
+which now drops). Publishes `state.rec.json`, `events.rec.jsonl`,
 `rivals.rec.json`, `pinned.rec.json`, `delta.rec.md`, and a curated Blender feed
 at `profiles/openingdesign/index.json`.
 
@@ -125,6 +128,21 @@ both statements, not routine.
   `resolve_base_branch()` decides for every stage: the profile's branch wins,
   the env var may only agree with it, and the workflow exports what the profile
   says instead of hardcoding it.
+- **`distill` only knew the PRs it had been shown, and never promoted a pick.**
+  It found PR heads only under `refs/remotes/pr*`, the refs this pipeline's
+  merges create; a working clone keeps them under `refs/prhead/<n>` (3,187 in
+  the reference checkout). Anything opened after the last pipeline fetch was
+  invisible, so its commits read as the curator's own work: 91 "residue"
+  commits were in fact 78 commits on open PRs and 13 genuinely unshared. And a
+  cherry-picked PR was never selected, even when every commit was on the
+  branch: #9765 was one commit, byte-identical, and missing from the build.
+  Now `refs/prhead/*` and `refs/pull/*/head` are scanned too; a PR whose every
+  own commit (beyond the `v*` release branches) is on the branch by patch-id
+  is selected, at the position of its last picked commit; "all present but
+  some adapted" and "partial" are listed for review, not selected. 22 open PRs
+  came back that way. A PR's commits can also arrive *inside* another merged
+  PR (#8061/#8062/#8064 rode in on #8083): those are not cherry-picks and the
+  host PR already carries them, so a whole-branch comparison overcounts.
 - **A sidecar skipped when empty is a stale sidecar.** `write_pinned()` and
   `write_rivals()` returned early when there was nothing to record, so the
   previous run's file stayed. The first v0.9.0 run pinned nothing and left
