@@ -3,21 +3,21 @@
   "base_commit": "d1d6a6b78da37038e3841055c747332aa14d0f82",
   "counts": {
     "failed": 8,
-    "merged": 132,
+    "merged": 133,
     "skipped_conflict": 1,
     "skipped_draft": 0,
-    "total": 141
+    "total": 142
   },
-  "generated_at": "2026-10-04T02:07:40Z",
+  "generated_at": "2026-10-04T18:34:55Z",
   "merge_order": "recorded",
   "profile": {
     "base_branch": "v0.9.0",
     "base_commit": null,
-    "digest": "sha256:21438e13c911153379f13372a9360808ec16ce9edc11da8a33902dc876a5e581",
+    "digest": "sha256:5e99b8a4f66a2e68cd694a5c51808c8e369fc57127cc1916f2bce0d1f6fb5a47",
     "mode": "allowlist",
     "name": "openingdesign",
     "pinned_prs": 132,
-    "selected": 141,
+    "selected": 142,
     "url": "https://github.com/OpeningDesign/bonsaiPR/blob/main/profiles/openingdesign.json"
   },
   "prs": {
@@ -989,6 +989,14 @@
       "title": "Fix horizontal profile editing for sloped LAYER3 slabs",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8429"
     },
+    "8598": {
+      "author": "BIMvoice",
+      "branch": "fix-4047-bounded-property-support",
+      "head": "3480524",
+      "status": "merged",
+      "title": "Bonsai/ifcopenshell-python: support editing IfcPropertyBoundedValue properties",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8598"
+    },
     "8599": {
       "author": "theoryshaw",
       "branch": "fix-decoration-zero-length-textdir",
@@ -1156,8 +1164,8 @@
     "instance": "https://github.com/OpeningDesign/bonsaiPR"
   },
   "release": {
-    "tag": "v0.9.0-alpha2610040206",
-    "url": "https://github.com/OpeningDesign/bonsaiPR/releases/tag/v0.9.0-alpha2610040206"
+    "tag": null,
+    "url": null
   },
   "schema": 2
 }
