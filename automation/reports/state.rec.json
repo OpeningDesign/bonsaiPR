@@ -3,21 +3,21 @@
   "base_commit": "d1d6a6b78da37038e3841055c747332aa14d0f82",
   "counts": {
     "failed": 8,
-    "merged": 109,
-    "skipped_conflict": 2,
-    "skipped_draft": 0,
-    "total": 119
+    "merged": 131,
+    "skipped_conflict": 1,
+    "skipped_draft": 1,
+    "total": 141
   },
-  "generated_at": "2026-10-03T19:47:24Z",
+  "generated_at": "2026-10-04T02:00:28Z",
   "merge_order": "recorded",
   "profile": {
     "base_branch": "v0.9.0",
     "base_commit": null,
-    "digest": "sha256:779da82d60f74dcc9738bc6d76cfc07f851175f692cef58e0ac4482e014941ab",
+    "digest": "sha256:ca6657b078337d592d5611a2b64aa78adcae60f38431201b209420db33e1d954",
     "mode": "allowlist",
     "name": "openingdesign",
-    "pinned_prs": 110,
-    "selected": 119,
+    "pinned_prs": 132,
+    "selected": 141,
     "url": "https://github.com/OpeningDesign/bonsaiPR/blob/main/profiles/openingdesign.json"
   },
   "prs": {
@@ -236,6 +236,14 @@
       "status": "failed",
       "title": "Fixed missing definition resulting in USD support not being built",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/7851"
+    },
+    "7858": {
+      "author": "theoryshaw",
+      "branch": "print_ifcspaces_in_projection",
+      "head": "f8dee64",
+      "status": "merged",
+      "title": "Fix #6602: Print IfcSpaces in projection.",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/7858"
     },
     "7863": {
       "author": "jazzific",
@@ -569,7 +577,7 @@
       "author": "BIMvoice",
       "branch": "fix/edit-pset-empty-numeric-4112",
       "head": "12c81e3",
-      "status": "skipped_conflict",
+      "status": "merged",
       "title": "pset.edit_pset: treat an empty string for a numeric property as no value (#4112)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8251"
     },
@@ -972,6 +980,174 @@
       "status": "merged",
       "title": "ifc5d: add base-quantity rule for IfcGeographicElement (#6508)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8393"
+    },
+    "8429": {
+      "author": "theoryshaw",
+      "branch": "fix-layer3-slab-horizontal-profile-edit",
+      "head": "e7dfd43",
+      "status": "merged",
+      "title": "Fix horizontal profile editing for sloped LAYER3 slabs",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8429"
+    },
+    "8599": {
+      "author": "theoryshaw",
+      "branch": "fix-decoration-zero-length-textdir",
+      "head": "e1589b8",
+      "status": "merged",
+      "title": "Bonsai: don't crash decoration labels on a zero-length text direction",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8599"
+    },
+    "8600": {
+      "author": "theoryshaw",
+      "branch": "fix-decoration-no-scene-camera",
+      "head": "0867503",
+      "status": "merged",
+      "title": "Bonsai: skip drawing decorations when the scene has no active camera",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8600"
+    },
+    "8610": {
+      "author": "theoryshaw",
+      "branch": "fix-mergeduplicatetypes-null-and-crossclass",
+      "head": "e8d2586",
+      "status": "merged",
+      "title": "ifcpatch: fix MergeDuplicateTypes destroying distinct/cross-class types",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8610"
+    },
+    "8668": {
+      "author": "theoryshaw",
+      "branch": "fix-8666-saferemoval-untracked-assertion",
+      "head": "f5da3ef",
+      "status": "merged",
+      "title": "project.append_asset: don't crash on untracked removed element (#8666)",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8668"
+    },
+    "8822": {
+      "author": "theoryshaw",
+      "branch": "fix-bbim-boolean-data-dict",
+      "head": "3c9dfef",
+      "status": "merged",
+      "title": "Bonsai: harden BBIM_Boolean.Data parsing against non-list payloads",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8822"
+    },
+    "8928": {
+      "author": "BIMvoice",
+      "branch": "feat-4779-material-merge",
+      "head": "790be3e",
+      "status": "skipped_draft",
+      "title": "Bonsai + ifcopenshell.api: merge/reassign redundant materials into one",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8928"
+    },
+    "9016": {
+      "author": "theoryshaw",
+      "branch": "fix-9015-feet-decimal-dimensions",
+      "head": "afbd179",
+      "status": "merged",
+      "title": "Bonsai: fix \"Feet - Decimal\" dimension unit breaking annotation decorators (#9015)",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9016"
+    },
+    "9018": {
+      "author": "theoryshaw",
+      "branch": "Ryan_aggregate-annotations",
+      "head": "eb572e2",
+      "status": "merged",
+      "title": "Bonsai: allow aggregating IfcAnnotation elements and moving them as a unit",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9018"
+    },
+    "9054": {
+      "author": "theoryshaw",
+      "branch": "fix_copy_class_assigns_to_product_9049",
+      "head": "ec0aca9",
+      "status": "merged",
+      "title": "copy_class: don't share the original's annotations with the duplicate (#9049, cause behind #4014)",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9054"
+    },
+    "9307": {
+      "author": "theoryshaw",
+      "branch": "fix-8603-underlay-render-visibility",
+      "head": "0d47115",
+      "status": "merged",
+      "title": "Fix #8603: drawing underlay renders the previously active drawing's objects",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9307"
+    },
+    "9318": {
+      "author": "theoryshaw",
+      "branch": "fix_bringtofront_svg_namespace_9317",
+      "head": "9062511",
+      "status": "merged",
+      "title": "Fix EPset_Drawing.BringToFront not applying to merged cut geometry",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9318"
+    },
+    "9320": {
+      "author": "theoryshaw",
+      "branch": "fix_drawing_camera_rebuild",
+      "head": "1f52598",
+      "status": "merged",
+      "title": "Fix reflected plan drawings rebuilding their camera on every create_drawing",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9320"
+    },
+    "9441": {
+      "author": "theoryshaw",
+      "branch": "fix-9440-relative-save-path",
+      "head": "e5a7508",
+      "status": "merged",
+      "title": "Bonsai: resolve IFC save path to absolute before writing (fixes relative-path save failure)",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9441"
+    },
+    "9478": {
+      "author": "theoryshaw",
+      "branch": "update_current_style_reload_9477",
+      "head": "17b5bf7",
+      "status": "merged",
+      "title": "Bonsai: reload external styles from .blend in update_current_style",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9478"
+    },
+    "9491": {
+      "author": "theoryshaw",
+      "branch": "fix_unit_scale_on_blend_load",
+      "head": "6c228d1",
+      "status": "merged",
+      "title": "Bonsai: set unit scale when a project is loaded from a .blend (#9490)",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9491"
+    },
+    "9493": {
+      "author": "theoryshaw",
+      "branch": "join_cut_material_layers",
+      "head": "9d6d570",
+      "status": "merged",
+      "title": "Bonsai: key cut linework on the material of the cut, not the layer set",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9493"
+    },
+    "9494": {
+      "author": "theoryshaw",
+      "branch": "svg_class_per_value",
+      "head": "0a18aca",
+      "status": "merged",
+      "title": "Bonsai: emit one SVG class per metadata value, and per layer where cut",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9494"
+    },
+    "9507": {
+      "author": "theoryshaw",
+      "branch": "save_blend_retry_on_lock_9506",
+      "head": "b93fcfa",
+      "status": "merged",
+      "title": "Bonsai: retry the .blend save in save_project when the file is briefly locked (#9506)",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9507"
+    },
+    "9515": {
+      "author": "theoryshaw",
+      "branch": "roof_footprint_flatten_9514",
+      "head": "cc64214",
+      "status": "merged",
+      "title": "Bonsai: flatten roof footprint instead of failing, keep path preview, direct_profile_edit support",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9515"
+    },
+    "9765": {
+      "author": "theoryshaw",
+      "branch": "strip_text_comments",
+      "head": "c0adc24",
+      "status": "merged",
+      "title": "Bonsai: strip HTML comments from annotation text",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9765"
     }
   },
   "publisher": {
@@ -980,8 +1156,8 @@
     "instance": "https://github.com/OpeningDesign/bonsaiPR"
   },
   "release": {
-    "tag": "v0.9.0-alpha2610031946",
-    "url": "https://github.com/OpeningDesign/bonsaiPR/releases/tag/v0.9.0-alpha2610031946"
+    "tag": null,
+    "url": null
   },
   "schema": 2
 }
