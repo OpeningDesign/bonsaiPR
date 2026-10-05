@@ -2,6 +2,12 @@
 
 On-demand builds of Bonsai with merged pull requests from the IfcOpenShell repository.
 
+> **This is OpeningDesign's instance**, publishing the `openingdesign` curation
+> ([`profiles/openingdesign.json`](profiles/openingdesign.json)) as the "Frankenstein"
+> build. The canonical BonsaiPR is
+> [falken10vdl/bonsaiPR](https://github.com/falken10vdl/bonsaiPR). Both install as
+> **BonsaiPR**, so subscribe to one of the two feeds, not both.
+
 > **Want to install a curated build, or publish your own?**
 > [`docs/TUTORIAL.md`](docs/TUTORIAL.md) walks through both, end to end.
 
@@ -41,7 +47,7 @@ To enable automated updates for the bonsaiPR extension in Blender, open Blender 
 
 4. Select **Add Remote Repository**.
 
-5. Enter the following URL: [https://raw.githubusercontent.com/falken10vdl/bonsaiPR/refs/heads/main/index.json](https://raw.githubusercontent.com/falken10vdl/bonsaiPR/refs/heads/main/index.json)
+5. Enter the following URL: [https://raw.githubusercontent.com/OpeningDesign/bonsaiPR/main/profiles/openingdesign/index.json](https://raw.githubusercontent.com/OpeningDesign/bonsaiPR/main/profiles/openingdesign/index.json)
 
 6. Make sure "Check for Updates on Startup" is enabled. Click **Create**
 
@@ -74,7 +80,7 @@ Restart Blender and enjoy!
 
 ### Latest Release
 
-Visit the [Releases](https://github.com/falken10vdl/bonsaiPR/releases) page to download the latest build.
+Visit the [Releases](https://github.com/OpeningDesign/bonsaiPR/releases) page to download the latest build.
 
 ### Creating Builds
 
