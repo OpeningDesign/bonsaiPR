@@ -1,14 +1,14 @@
 {
   "base": "v0.9.0",
-  "base_commit": "c3508db3feca81419d5e4e0f38a53faa13cab056",
+  "base_commit": "b538bfb6813e4a9978195cda8ee9e39b12763c4c",
   "counts": {
     "failed": 8,
-    "merged": 163,
+    "merged": 162,
     "skipped_conflict": 1,
     "skipped_draft": 0,
-    "total": 172
+    "total": 171
   },
-  "generated_at": "2026-10-05T03:10:08Z",
+  "generated_at": "2026-10-05T17:44:50Z",
   "merge_order": "recorded",
   "profile": {
     "base_branch": "v0.9.0",
@@ -960,7 +960,7 @@
     "8351": {
       "author": "BIMvoice",
       "branch": "fix-4785-drawing-space-filter",
-      "head": "5b35a1e",
+      "head": "3549113",
       "status": "merged",
       "title": "Bonsai: apply the drawing Include filter to IfcSpace elements (#4785)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8351"
@@ -1301,14 +1301,6 @@
       "title": "Bonsai: find a sheet's drawing by path when its data-id is stale",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9469"
     },
-    "9478": {
-      "author": "theoryshaw",
-      "branch": "update_current_style_reload_9477",
-      "head": "17b5bf7",
-      "status": "merged",
-      "title": "Bonsai: reload external styles from .blend in update_current_style",
-      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9478"
-    },
     "9491": {
       "author": "theoryshaw",
       "branch": "fix_unit_scale_on_blend_load",
@@ -1368,7 +1360,7 @@
     "9555": {
       "author": "theoryshaw",
       "branch": "sheet_template_api",
-      "head": "0cd600f",
+      "head": "af6b3f9",
       "status": "merged",
       "title": "Bonsai: a web API for tools that display and edit sheets without building them",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9555"
@@ -1404,8 +1396,8 @@
     "instance": "https://github.com/OpeningDesign/bonsaiPR"
   },
   "release": {
-    "tag": "v0.9.0-alpha2610050308",
-    "url": "https://github.com/OpeningDesign/bonsaiPR/releases/tag/v0.9.0-alpha2610050308"
+    "tag": "v0.9.0-alpha2610051742",
+    "url": "https://github.com/OpeningDesign/bonsaiPR/releases/tag/v0.9.0-alpha2610051742"
   },
   "schema": 2
 }

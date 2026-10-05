@@ -218,3 +218,6 @@
 {"ts": "2026-10-05T02:18:13Z", "order": "recorded", "pr": 9327, "event": "added", "to": "merged"}
 {"ts": "2026-10-05T03:05:19Z", "order": "recorded", "pr": 7833, "event": "updated", "status": "merged", "from_head": "f3f77be", "to_head": "582c1a9"}
 {"ts": "2026-10-05T03:05:19Z", "order": "recorded", "pr": 9021, "event": "added", "to": "merged"}
+{"ts": "2026-10-05T17:44:50Z", "order": "recorded", "pr": 8351, "event": "updated", "status": "merged", "from_head": "5b35a1e", "to_head": "3549113"}
+{"ts": "2026-10-05T17:44:50Z", "order": "recorded", "pr": 9478, "event": "removed", "from": "merged"}
+{"ts": "2026-10-05T17:44:50Z", "order": "recorded", "pr": 9555, "event": "updated", "status": "merged", "from_head": "0cd600f", "to_head": "af6b3f9"}
