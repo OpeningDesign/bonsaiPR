@@ -1,6 +1,6 @@
 {
   "base": "v0.9.0",
-  "base_commit": "d1d6a6b78da37038e3841055c747332aa14d0f82",
+  "base_commit": "c3508db3feca81419d5e4e0f38a53faa13cab056",
   "counts": {
     "failed": 8,
     "merged": 162,
@@ -8,16 +8,16 @@
     "skipped_draft": 0,
     "total": 171
   },
-  "generated_at": "2026-10-05T01:37:49Z",
+  "generated_at": "2026-10-05T02:18:13Z",
   "merge_order": "recorded",
   "profile": {
     "base_branch": "v0.9.0",
     "base_commit": null,
-    "digest": "sha256:cd9c0ac61d4c67784ad4b2102f72a48feb4dae446b668664b7b6cc60ceea4dc0",
+    "digest": "sha256:d96af91758b1579948befd6c07d58f75c0d87f8a23d343438cb0fd68e1ea17fa",
     "mode": "allowlist",
     "name": "openingdesign",
-    "pinned_prs": 162,
-    "selected": 171,
+    "pinned_prs": 163,
+    "selected": 172,
     "url": "https://github.com/OpeningDesign/bonsaiPR/blob/main/profiles/openingdesign.json"
   },
   "prs": {
@@ -228,14 +228,6 @@
       "status": "merged",
       "title": "Grid issues",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/7833"
-    },
-    "7839": {
-      "author": "theoryshaw",
-      "branch": "slab_issues",
-      "head": "4ea334e",
-      "status": "merged",
-      "title": "Fix #7838: Fix slab layer direction and thickness offset",
-      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/7839"
     },
     "7851": {
       "author": "rares-radu",
@@ -1253,6 +1245,14 @@
       "title": "Fix reflected plan drawings rebuilding their camera on every create_drawing",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9320"
     },
+    "9327": {
+      "author": "theoryshaw",
+      "branch": "polyline_rectangle_mode_9326",
+      "head": "f377ea4",
+      "status": "merged",
+      "title": "Rectangle mode for the polyline slab, wall and profile tools (closes #9326)",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9327"
+    },
     "9370": {
       "author": "theoryshaw",
       "branch": "fix-sheet-presentation-attr-ids",
@@ -1396,8 +1396,8 @@
     "instance": "https://github.com/OpeningDesign/bonsaiPR"
   },
   "release": {
-    "tag": "v0.9.0-alpha2610050136",
-    "url": "https://github.com/OpeningDesign/bonsaiPR/releases/tag/v0.9.0-alpha2610050136"
+    "tag": null,
+    "url": null
   },
   "schema": 2
 }

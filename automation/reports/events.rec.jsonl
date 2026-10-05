@@ -214,3 +214,5 @@
 {"ts": "2026-10-05T01:31:46Z", "order": "recorded", "pr": 9523, "event": "added", "to": "merged"}
 {"ts": "2026-10-05T01:31:46Z", "order": "recorded", "pr": 9555, "event": "added", "to": "merged"}
 {"ts": "2026-10-05T01:31:46Z", "order": "recorded", "pr": 9589, "event": "added", "to": "merged"}
+{"ts": "2026-10-05T02:18:13Z", "order": "recorded", "pr": 7839, "event": "removed", "from": "merged"}
+{"ts": "2026-10-05T02:18:13Z", "order": "recorded", "pr": 9327, "event": "added", "to": "merged"}
