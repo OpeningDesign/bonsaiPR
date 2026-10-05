@@ -3,21 +3,21 @@
   "base_commit": "d1d6a6b78da37038e3841055c747332aa14d0f82",
   "counts": {
     "failed": 8,
-    "merged": 158,
+    "merged": 162,
     "skipped_conflict": 1,
     "skipped_draft": 0,
-    "total": 167
+    "total": 171
   },
-  "generated_at": "2026-10-04T22:48:30Z",
+  "generated_at": "2026-10-05T01:31:46Z",
   "merge_order": "recorded",
   "profile": {
     "base_branch": "v0.9.0",
     "base_commit": null,
-    "digest": "sha256:abd2290c1385489856fc93c08588b19d8b2773f84ae8c9900e7082b8247b1a2b",
+    "digest": "sha256:cd9c0ac61d4c67784ad4b2102f72a48feb4dae446b668664b7b6cc60ceea4dc0",
     "mode": "allowlist",
     "name": "openingdesign",
-    "pinned_prs": 158,
-    "selected": 167,
+    "pinned_prs": 162,
+    "selected": 171,
     "url": "https://github.com/OpeningDesign/bonsaiPR/blob/main/profiles/openingdesign.json"
   },
   "prs": {
@@ -192,7 +192,7 @@
     "7798": {
       "author": "theoryshaw",
       "branch": "ManualDrawingReference",
-      "head": "37982ed",
+      "head": "1cd9f23",
       "status": "merged",
       "title": "Manual drawing reference",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/7798"
@@ -612,6 +612,14 @@
       "status": "merged",
       "title": "root.reassign_class: raise a clear error when no class is applicable (#8210)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8258"
+    },
+    "8263": {
+      "author": "BIMvoice",
+      "branch": "fix/add-reference-image-kwarg-8130",
+      "head": "65b08c3",
+      "status": "merged",
+      "title": "Bonsai: drop stale kwarg when invoking add_reference_image (#8130)",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8263"
     },
     "8264": {
       "author": "BIMvoice",
@@ -1341,6 +1349,22 @@
       "title": "Bonsai: fuse underside clip solids into one UNION tool (#9516)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9517"
     },
+    "9523": {
+      "author": "theoryshaw",
+      "branch": "extend_to_cursor_base_levels_7950",
+      "head": "1f8a639",
+      "status": "merged",
+      "title": "fix(bonsai): extend walls to cursor from any base level",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9523"
+    },
+    "9555": {
+      "author": "theoryshaw",
+      "branch": "sheet_template_api",
+      "head": "0cd600f",
+      "status": "merged",
+      "title": "Bonsai: a web API for tools that display and edit sheets without building them",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9555"
+    },
     "9557": {
       "author": "theoryshaw",
       "branch": "restore_moved_sheet_files",
@@ -1348,6 +1372,14 @@
       "status": "merged",
       "title": "Bonsai: put back sheet files renamed in a session that was not saved",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9557"
+    },
+    "9589": {
+      "author": "theoryshaw",
+      "branch": "v09/fix-9588-add-aggregate-linked-aggregates",
+      "head": "e8ddb25",
+      "status": "merged",
+      "title": "Collect whole aggregates in bim.add_aggregate",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9589"
     },
     "9765": {
       "author": "theoryshaw",
@@ -1364,8 +1396,8 @@
     "instance": "https://github.com/OpeningDesign/bonsaiPR"
   },
   "release": {
-    "tag": "v0.9.0-alpha2610042247",
-    "url": "https://github.com/OpeningDesign/bonsaiPR/releases/tag/v0.9.0-alpha2610042247"
+    "tag": null,
+    "url": null
   },
   "schema": 2
 }
