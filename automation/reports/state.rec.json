@@ -3,17 +3,17 @@
   "base_commit": "c3508db3feca81419d5e4e0f38a53faa13cab056",
   "counts": {
     "failed": 8,
-    "merged": 162,
+    "merged": 163,
     "skipped_conflict": 1,
     "skipped_draft": 0,
-    "total": 171
+    "total": 172
   },
-  "generated_at": "2026-10-05T02:23:14Z",
+  "generated_at": "2026-10-05T03:05:19Z",
   "merge_order": "recorded",
   "profile": {
     "base_branch": "v0.9.0",
     "base_commit": null,
-    "digest": "sha256:d96af91758b1579948befd6c07d58f75c0d87f8a23d343438cb0fd68e1ea17fa",
+    "digest": "sha256:9f052bb757186d50e88b3b9e21a127b41aacf04768850248ecaa210fba140dfc",
     "mode": "allowlist",
     "name": "openingdesign",
     "pinned_prs": 163,
@@ -224,7 +224,7 @@
     "7833": {
       "author": "theoryshaw",
       "branch": "grid_issues",
-      "head": "f3f77be",
+      "head": "582c1a9",
       "status": "merged",
       "title": "Grid issues",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/7833"
@@ -1149,6 +1149,14 @@
       "title": "Bonsai: allow aggregating IfcAnnotation elements and moving them as a unit",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9018"
     },
+    "9021": {
+      "author": "theoryshaw",
+      "branch": "annotation_multi_drawing_7798",
+      "head": "17422a3",
+      "status": "merged",
+      "title": "Bonsai: allow a single IfcAnnotation to appear on multiple drawings (#9019)",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9021"
+    },
     "9044": {
       "author": "BIMvoice",
       "branch": "fix/7000-mats-category-selector",
@@ -1396,8 +1404,8 @@
     "instance": "https://github.com/OpeningDesign/bonsaiPR"
   },
   "release": {
-    "tag": "v0.9.0-alpha2610050221",
-    "url": "https://github.com/OpeningDesign/bonsaiPR/releases/tag/v0.9.0-alpha2610050221"
+    "tag": null,
+    "url": null
   },
   "schema": 2
 }
