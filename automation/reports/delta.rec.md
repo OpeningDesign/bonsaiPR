@@ -1,5 +1,5 @@
 ### 🔁 Changes since last build _(merge order: recorded)_
 
-**Now merging (2)**
-- [#8585](https://github.com/IfcOpenShell/IfcOpenShell/pull/8585) (skipped_conflict → merged) — Bonsai: restore sheet SVG on undo/redo of drawing removal (#7275)
-- [#9555](https://github.com/IfcOpenShell/IfcOpenShell/pull/9555) (skipped_conflict → merged) — Bonsai: a web API for tools that display and edit sheets without building them
+**Dropped (2)** _(merged upstream or PR closed)_
+- #8325 (was merged) — bonsai(material): keep the layer panel in stored order so a wall flip does not reorder it (#8240)
+- #8333 (was merged) — bonsai(model): TAB on a wall enters IFC Item Mode again (#8330)

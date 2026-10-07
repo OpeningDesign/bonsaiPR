@@ -1,14 +1,14 @@
 {
   "base": "v0.9.0",
-  "base_commit": "7b8f1290ada4214b94bfc11032f0ae8722d3f9e0",
+  "base_commit": "f96911ce5cca7c31b963226108329ee43e57b4c8",
   "counts": {
     "failed": 8,
-    "merged": 165,
+    "merged": 163,
     "skipped_conflict": 1,
     "skipped_draft": 0,
-    "total": 174
+    "total": 172
   },
-  "generated_at": "2026-10-07T14:30:11Z",
+  "generated_at": "2026-10-07T14:34:38Z",
   "merge_order": "recorded",
   "profile": {
     "base_branch": "v0.9.0",
@@ -797,14 +797,6 @@
       "title": "util.selector: match boolean properties by True/False spelling (#8100)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8323"
     },
-    "8325": {
-      "author": "BIMvoice",
-      "branch": "fix-material-layer-panel-flip-order-8240",
-      "head": "8ae2389",
-      "status": "merged",
-      "title": "bonsai(material): keep the layer panel in stored order so a wall flip does not reorder it (#8240)",
-      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8325"
-    },
     "8326": {
       "author": "BIMvoice",
       "branch": "fix-append-asset-duplicate-classification-7150",
@@ -852,14 +844,6 @@
       "status": "merged",
       "title": "ifc5d: measure segment length from geometry when it is not a supported extrusion",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8332"
-    },
-    "8333": {
-      "author": "BIMvoice",
-      "branch": "fix-8330-tab-wall-item-mode",
-      "head": "3a2eb24",
-      "status": "merged",
-      "title": "bonsai(model): TAB on a wall enters IFC Item Mode again (#8330)",
-      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8333"
     },
     "8334": {
       "author": "BIMvoice",
@@ -1420,8 +1404,8 @@
     "instance": "https://github.com/OpeningDesign/bonsaiPR"
   },
   "release": {
-    "tag": null,
-    "url": null
+    "tag": "v0.9.0-alpha2610071433",
+    "url": "https://github.com/OpeningDesign/bonsaiPR/releases/tag/v0.9.0-alpha2610071433"
   },
   "schema": 2
 }
