@@ -1,23 +1,23 @@
 {
   "base": "v0.9.0",
-  "base_commit": "b538bfb6813e4a9978195cda8ee9e39b12763c4c",
+  "base_commit": "7b8f1290ada4214b94bfc11032f0ae8722d3f9e0",
   "counts": {
     "failed": 8,
-    "merged": 162,
-    "skipped_conflict": 1,
+    "merged": 163,
+    "skipped_conflict": 3,
     "skipped_draft": 0,
-    "total": 171
+    "total": 174
   },
-  "generated_at": "2026-10-05T17:44:50Z",
+  "generated_at": "2026-10-07T14:10:12Z",
   "merge_order": "recorded",
   "profile": {
     "base_branch": "v0.9.0",
     "base_commit": null,
-    "digest": "sha256:9f052bb757186d50e88b3b9e21a127b41aacf04768850248ecaa210fba140dfc",
+    "digest": "sha256:782552f617e1a72aa6d0e4d332732c49eba44287c93c761388db2830eefab946",
     "mode": "allowlist",
     "name": "openingdesign",
-    "pinned_prs": 163,
-    "selected": 172,
+    "pinned_prs": 165,
+    "selected": 174,
     "url": "https://github.com/OpeningDesign/bonsaiPR/blob/main/profiles/openingdesign.json"
   },
   "prs": {
@@ -688,7 +688,7 @@
     "8281": {
       "author": "BIMvoice",
       "branch": "feat-ifcpatch-cli-entrypoint-6436",
-      "head": "aef735b",
+      "head": "8a03cba",
       "status": "merged",
       "title": "ifcpatch: add console script entry point (#6436)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8281"
@@ -1013,6 +1013,14 @@
       "title": "Bonsai: add editable \"Elevation from Storey\" field to Placement panel",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8548"
     },
+    "8585": {
+      "author": "BIMvoice",
+      "branch": "fix-7275-drawing-sheet-undo",
+      "head": "07dd3a5",
+      "status": "skipped_conflict",
+      "title": "Bonsai: restore sheet SVG on undo/redo of drawing removal (#7275)",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8585"
+    },
     "8598": {
       "author": "BIMvoice",
       "branch": "fix-4047-bounded-property-support",
@@ -1085,6 +1093,14 @@
       "title": "Fix #4322. Support importing IfcMaterial and profile attributes and psets via Spreadsheet Import/Export",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8674"
     },
+    "8676": {
+      "author": "BIMvoice",
+      "branch": "fix-2011-ifc-node-graph",
+      "head": "8639ee3",
+      "status": "merged",
+      "title": "Bonsai: add IFC Graph node editor to explore entity relationships",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8676"
+    },
     "8706": {
       "author": "theoryshaw",
       "branch": "merge-duplicate-contexts",
@@ -1128,7 +1144,7 @@
     "8928": {
       "author": "BIMvoice",
       "branch": "feat-4779-material-merge",
-      "head": "790be3e",
+      "head": "1b6b125",
       "status": "merged",
       "title": "Bonsai + ifcopenshell.api: merge/reassign redundant materials into one",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8928"
@@ -1360,8 +1376,8 @@
     "9555": {
       "author": "theoryshaw",
       "branch": "sheet_template_api",
-      "head": "af6b3f9",
-      "status": "merged",
+      "head": "77ece1c",
+      "status": "skipped_conflict",
       "title": "Bonsai: a web API for tools that display and edit sheets without building them",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9555"
     },
@@ -1388,6 +1404,14 @@
       "status": "merged",
       "title": "Bonsai: strip HTML comments from annotation text",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9765"
+    },
+    "9840": {
+      "author": "theoryshaw",
+      "branch": "dev-environment-system-info",
+      "head": "2c061fa",
+      "status": "merged",
+      "title": "Bonsai: report dev environment symlink state in system info",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9840"
     }
   },
   "publisher": {
@@ -1396,8 +1420,8 @@
     "instance": "https://github.com/OpeningDesign/bonsaiPR"
   },
   "release": {
-    "tag": "v0.9.0-alpha2610051742",
-    "url": "https://github.com/OpeningDesign/bonsaiPR/releases/tag/v0.9.0-alpha2610051742"
+    "tag": null,
+    "url": null
   },
   "schema": 2
 }
