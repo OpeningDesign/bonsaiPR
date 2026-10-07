@@ -233,3 +233,4 @@
 {"ts": "2026-10-07T14:34:38Z", "order": "recorded", "pr": 8333, "event": "removed", "from": "merged"}
 {"ts": "2026-10-07T23:22:22Z", "order": "recorded", "pr": 8323, "event": "removed", "from": "merged"}
 {"ts": "2026-10-07T23:22:22Z", "order": "recorded", "pr": 9851, "event": "added", "to": "skipped_conflict"}
+{"ts": "2026-10-07T23:50:13Z", "order": "recorded", "pr": 9851, "event": "status", "from": "skipped_conflict", "to": "merged"}

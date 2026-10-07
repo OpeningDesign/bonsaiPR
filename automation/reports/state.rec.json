@@ -3,21 +3,21 @@
   "base_commit": "f96911ce5cca7c31b963226108329ee43e57b4c8",
   "counts": {
     "failed": 8,
-    "merged": 162,
-    "skipped_conflict": 2,
+    "merged": 163,
+    "skipped_conflict": 1,
     "skipped_draft": 0,
     "total": 172
   },
-  "generated_at": "2026-10-07T23:22:22Z",
+  "generated_at": "2026-10-07T23:50:13Z",
   "merge_order": "recorded",
   "profile": {
     "base_branch": "v0.9.0",
     "base_commit": null,
-    "digest": "sha256:1613b9c9ae8414128931bef8cc89ff2ca64ba3cc50a923ef517e65e4807b4dc6",
+    "digest": "sha256:177e460be8d179edefa5a479bf245e75d47bae6012d86ee01526de77fb96edbd",
     "mode": "allowlist",
     "name": "openingdesign",
-    "pinned_prs": 164,
-    "selected": 173,
+    "pinned_prs": 163,
+    "selected": 172,
     "url": "https://github.com/OpeningDesign/bonsaiPR/blob/main/profiles/openingdesign.json"
   },
   "prs": {
@@ -1392,8 +1392,8 @@
     "9851": {
       "author": "theoryshaw",
       "branch": "terrain-contours",
-      "head": "2dba5fc",
-      "status": "skipped_conflict",
+      "head": "70c8a9f",
+      "status": "merged",
       "title": "Bonsai: generate terrain contour lines as IfcAnnotation CONTOURLINE",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9851"
     }
