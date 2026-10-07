@@ -3,17 +3,17 @@
   "base_commit": "7b8f1290ada4214b94bfc11032f0ae8722d3f9e0",
   "counts": {
     "failed": 8,
-    "merged": 163,
-    "skipped_conflict": 3,
+    "merged": 165,
+    "skipped_conflict": 1,
     "skipped_draft": 0,
     "total": 174
   },
-  "generated_at": "2026-10-07T14:10:12Z",
+  "generated_at": "2026-10-07T14:30:11Z",
   "merge_order": "recorded",
   "profile": {
     "base_branch": "v0.9.0",
     "base_commit": null,
-    "digest": "sha256:782552f617e1a72aa6d0e4d332732c49eba44287c93c761388db2830eefab946",
+    "digest": "sha256:b2c6c7c480d881e5d42d50885407feb8b1fb13a289224c2987040858c2d4f53f",
     "mode": "allowlist",
     "name": "openingdesign",
     "pinned_prs": 165,
@@ -1016,8 +1016,8 @@
     "8585": {
       "author": "BIMvoice",
       "branch": "fix-7275-drawing-sheet-undo",
-      "head": "07dd3a5",
-      "status": "skipped_conflict",
+      "head": "a4796d9",
+      "status": "merged",
       "title": "Bonsai: restore sheet SVG on undo/redo of drawing removal (#7275)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8585"
     },
@@ -1376,8 +1376,8 @@
     "9555": {
       "author": "theoryshaw",
       "branch": "sheet_template_api",
-      "head": "77ece1c",
-      "status": "skipped_conflict",
+      "head": "a677ff2",
+      "status": "merged",
       "title": "Bonsai: a web API for tools that display and edit sheets without building them",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9555"
     },
