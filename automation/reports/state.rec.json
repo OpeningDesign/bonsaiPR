@@ -3,21 +3,21 @@
   "base_commit": "f96911ce5cca7c31b963226108329ee43e57b4c8",
   "counts": {
     "failed": 8,
-    "merged": 163,
-    "skipped_conflict": 1,
+    "merged": 162,
+    "skipped_conflict": 2,
     "skipped_draft": 0,
     "total": 172
   },
-  "generated_at": "2026-10-07T14:34:38Z",
+  "generated_at": "2026-10-07T23:22:22Z",
   "merge_order": "recorded",
   "profile": {
     "base_branch": "v0.9.0",
     "base_commit": null,
-    "digest": "sha256:b2c6c7c480d881e5d42d50885407feb8b1fb13a289224c2987040858c2d4f53f",
+    "digest": "sha256:1613b9c9ae8414128931bef8cc89ff2ca64ba3cc50a923ef517e65e4807b4dc6",
     "mode": "allowlist",
     "name": "openingdesign",
-    "pinned_prs": 165,
-    "selected": 174,
+    "pinned_prs": 164,
+    "selected": 173,
     "url": "https://github.com/OpeningDesign/bonsaiPR/blob/main/profiles/openingdesign.json"
   },
   "prs": {
@@ -789,14 +789,6 @@
       "title": "bonsai(pset): bind schema module directly so pset UI survives add-on reload (#8236)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8322"
     },
-    "8323": {
-      "author": "BIMvoice",
-      "branch": "fix-selector-boolean-property-8100",
-      "head": "245f8e6",
-      "status": "merged",
-      "title": "util.selector: match boolean properties by True/False spelling (#8100)",
-      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8323"
-    },
     "8326": {
       "author": "BIMvoice",
       "branch": "fix-append-asset-duplicate-classification-7150",
@@ -1396,6 +1388,14 @@
       "status": "merged",
       "title": "Bonsai: report dev environment symlink state in system info",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9840"
+    },
+    "9851": {
+      "author": "theoryshaw",
+      "branch": "terrain-contours",
+      "head": "2dba5fc",
+      "status": "skipped_conflict",
+      "title": "Bonsai: generate terrain contour lines as IfcAnnotation CONTOURLINE",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9851"
     }
   },
   "publisher": {
@@ -1404,8 +1404,8 @@
     "instance": "https://github.com/OpeningDesign/bonsaiPR"
   },
   "release": {
-    "tag": "v0.9.0-alpha2610071433",
-    "url": "https://github.com/OpeningDesign/bonsaiPR/releases/tag/v0.9.0-alpha2610071433"
+    "tag": null,
+    "url": null
   },
   "schema": 2
 }

@@ -1,5 +1,7 @@
 ### 🔁 Changes since last build _(merge order: recorded)_
 
-**Dropped (2)** _(merged upstream or PR closed)_
-- #8325 (was merged) — bonsai(material): keep the layer panel in stored order so a wall flip does not reorder it (#8240)
-- #8333 (was merged) — bonsai(model): TAB on a wall enters IFC Item Mode again (#8330)
+**New PRs (1)**
+- [#9851](https://github.com/IfcOpenShell/IfcOpenShell/pull/9851) → skipped_conflict — Bonsai: generate terrain contour lines as IfcAnnotation CONTOURLINE
+
+**Dropped (1)** _(merged upstream or PR closed)_
+- #8323 (was merged) — util.selector: match boolean properties by True/False spelling (#8100)
