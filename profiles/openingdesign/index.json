@@ -46,9 +46,9 @@
       "python_versions": [
         "3.11"
       ],
-      "archive_url": "https://github.com/OpeningDesign/bonsaiPR/releases/download/v0.9.0-alpha2610071433/Frankenstein_bonsaiPR_py311-0.9.0-alpha2610071433-linux-x64.zip",
-      "archive_size": 169964840,
-      "archive_hash": "sha256:1fb1f7b0910203f77f3aa806bbb6d098dbc6f806bd8370a1c006efbf69db3370"
+      "archive_url": "https://github.com/OpeningDesign/bonsaiPR/releases/download/v0.9.0-alpha2610072353/Frankenstein_bonsaiPR_py311-0.9.0-alpha2610072353-linux-x64.zip",
+      "archive_size": 169988730,
+      "archive_hash": "sha256:12bcee623d4100a2be12f1aa0f1e9895b25da21c41b88be50ef88ac6b03019d2"
     },
     {
       "schema_version": "1.0.0",
@@ -94,9 +94,9 @@
       "python_versions": [
         "3.11"
       ],
-      "archive_url": "https://github.com/OpeningDesign/bonsaiPR/releases/download/v0.9.0-alpha2610071433/Frankenstein_bonsaiPR_py311-0.9.0-alpha2610071433-macos-arm64.zip",
-      "archive_size": 140580666,
-      "archive_hash": "sha256:616e25bfcfd59c7c84bfd098fb2c685cbc8e3c8a5485ac6649e3e01d79bb9d28"
+      "archive_url": "https://github.com/OpeningDesign/bonsaiPR/releases/download/v0.9.0-alpha2610072353/Frankenstein_bonsaiPR_py311-0.9.0-alpha2610072353-macos-arm64.zip",
+      "archive_size": 140594582,
+      "archive_hash": "sha256:4e17f2a86735efa036376d16a052aeb6e230995176cfe56823cfbab4faa1f347"
     },
     {
       "schema_version": "1.0.0",
@@ -142,9 +142,9 @@
       "python_versions": [
         "3.11"
       ],
-      "archive_url": "https://github.com/OpeningDesign/bonsaiPR/releases/download/v0.9.0-alpha2610071433/Frankenstein_bonsaiPR_py311-0.9.0-alpha2610071433-windows-x64.zip",
-      "archive_size": 143530023,
-      "archive_hash": "sha256:648a221f44640f7deaddac85af6806893d897b10e2f26d47262aa181d4c473e5"
+      "archive_url": "https://github.com/OpeningDesign/bonsaiPR/releases/download/v0.9.0-alpha2610072353/Frankenstein_bonsaiPR_py311-0.9.0-alpha2610072353-windows-x64.zip",
+      "archive_size": 143544459,
+      "archive_hash": "sha256:db5ea6a5c7851130d52b2eb9cd2d831085b103c28b62b1193279279f26face6d"
     },
     {
       "schema_version": "1.0.0",
@@ -190,9 +190,9 @@
       "python_versions": [
         "3.13"
       ],
-      "archive_url": "https://github.com/OpeningDesign/bonsaiPR/releases/download/v0.9.0-alpha2610071433/Frankenstein_bonsaiPR_py313-0.9.0-alpha2610071433-linux-x64.zip",
-      "archive_size": 169526656,
-      "archive_hash": "sha256:466d97672ba0b2d2a288b6eb0020f45cce198e862d108f8dd8c8bd55b104429e"
+      "archive_url": "https://github.com/OpeningDesign/bonsaiPR/releases/download/v0.9.0-alpha2610072353/Frankenstein_bonsaiPR_py313-0.9.0-alpha2610072353-linux-x64.zip",
+      "archive_size": 169552239,
+      "archive_hash": "sha256:c8cf1bb8a38d8ab74373435297b526792723e2273cd2caefd73df2f811d0b0fd"
     },
     {
       "schema_version": "1.0.0",
@@ -238,9 +238,9 @@
       "python_versions": [
         "3.13"
       ],
-      "archive_url": "https://github.com/OpeningDesign/bonsaiPR/releases/download/v0.9.0-alpha2610071433/Frankenstein_bonsaiPR_py313-0.9.0-alpha2610071433-macos-arm64.zip",
-      "archive_size": 140674755,
-      "archive_hash": "sha256:f869d9d94ed7fe85126702e09f1a397a66d6c4b72c308ed6c003d78f15a3e169"
+      "archive_url": "https://github.com/OpeningDesign/bonsaiPR/releases/download/v0.9.0-alpha2610072353/Frankenstein_bonsaiPR_py313-0.9.0-alpha2610072353-macos-arm64.zip",
+      "archive_size": 140688568,
+      "archive_hash": "sha256:b9ccdaf06c9b8d373ffb6dd4fe8c22e8a0cb3689ed4642232eccd4930581f394"
     },
     {
       "schema_version": "1.0.0",
@@ -286,9 +286,9 @@
       "python_versions": [
         "3.13"
       ],
-      "archive_url": "https://github.com/OpeningDesign/bonsaiPR/releases/download/v0.9.0-alpha2610071433/Frankenstein_bonsaiPR_py313-0.9.0-alpha2610071433-windows-x64.zip",
-      "archive_size": 144367705,
-      "archive_hash": "sha256:0c8b2adabf9896b1d380dfe2bf4251a7f6ebc3c06287e974857d711c306cb517"
+      "archive_url": "https://github.com/OpeningDesign/bonsaiPR/releases/download/v0.9.0-alpha2610072353/Frankenstein_bonsaiPR_py313-0.9.0-alpha2610072353-windows-x64.zip",
+      "archive_size": 144381696,
+      "archive_hash": "sha256:9afd7a79a01fac22624b9a5651bfea48072a025eb41024fdb106f2a40f4e4ace"
     }
   ]
 }
