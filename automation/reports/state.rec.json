@@ -8,7 +8,7 @@
     "skipped_draft": 0,
     "total": 183
   },
-  "generated_at": "2026-10-11T20:54:01Z",
+  "generated_at": "2026-10-11T21:00:58Z",
   "merge_order": "recorded",
   "profile": {
     "base_branch": "v0.9.0",
@@ -1492,8 +1492,8 @@
     "instance": "https://github.com/OpeningDesign/bonsaiPR"
   },
   "release": {
-    "tag": null,
-    "url": null
+    "tag": "v0.9.0-alpha2610112059",
+    "url": "https://github.com/OpeningDesign/bonsaiPR/releases/tag/v0.9.0-alpha2610112059"
   },
   "schema": 2,
   "selected_not_open": {}
