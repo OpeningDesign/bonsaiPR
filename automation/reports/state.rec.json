@@ -1,23 +1,23 @@
 {
   "base": "v0.9.0",
-  "base_commit": "f96911ce5cca7c31b963226108329ee43e57b4c8",
+  "base_commit": "1db93ae5e97d402d7ef6847db64ea3434216e4f8",
   "counts": {
-    "failed": 8,
-    "merged": 163,
+    "failed": 9,
+    "merged": 173,
     "skipped_conflict": 1,
     "skipped_draft": 0,
-    "total": 172
+    "total": 183
   },
-  "generated_at": "2026-10-07T23:55:08Z",
+  "generated_at": "2026-10-11T20:54:01Z",
   "merge_order": "recorded",
   "profile": {
     "base_branch": "v0.9.0",
     "base_commit": null,
-    "digest": "sha256:177e460be8d179edefa5a479bf245e75d47bae6012d86ee01526de77fb96edbd",
+    "digest": "sha256:895dab8a1798db4427a96c9e8f428a273e3a22fbdba031b2a5a58809305ceeaf",
     "mode": "allowlist",
     "name": "openingdesign",
-    "pinned_prs": 163,
-    "selected": 172,
+    "pinned_prs": 174,
+    "selected": 183,
     "url": "https://github.com/OpeningDesign/bonsaiPR/blob/main/profiles/openingdesign.json"
   },
   "prs": {
@@ -40,7 +40,7 @@
     "7003": {
       "author": "Rob2309",
       "branch": "general-mirroring",
-      "head": "0016929",
+      "head": "72b2816",
       "status": "merged",
       "title": "Add true object mirroring operator",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/7003"
@@ -113,7 +113,7 @@
       "author": "falken10vdl",
       "branch": "clipboard-module",
       "head": "4bc21f8",
-      "status": "merged",
+      "status": "failed",
       "title": "First version clipboard module. 3 modes available (RENAME, DUPLICATE, DESTINATION)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/7669"
     },
@@ -224,7 +224,7 @@
     "7833": {
       "author": "theoryshaw",
       "branch": "grid_issues",
-      "head": "582c1a9",
+      "head": "ee28d54",
       "status": "merged",
       "title": "Grid issues",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/7833"
@@ -576,7 +576,7 @@
     "8251": {
       "author": "BIMvoice",
       "branch": "fix/edit-pset-empty-numeric-4112",
-      "head": "12c81e3",
+      "head": "d6ffa73",
       "status": "merged",
       "title": "pset.edit_pset: treat an empty string for a numeric property as no value (#4112)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8251"
@@ -596,14 +596,6 @@
       "status": "merged",
       "title": "IfcClash: default NotRequired clash set keys instead of asserting (#8224)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8257"
-    },
-    "8258": {
-      "author": "BIMvoice",
-      "branch": "fix/reassign-class-latent-8210",
-      "head": "6bfe660",
-      "status": "merged",
-      "title": "root.reassign_class: raise a clear error when no class is applicable (#8210)",
-      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8258"
     },
     "8263": {
       "author": "BIMvoice",
@@ -728,7 +720,7 @@
     "8298": {
       "author": "BIMvoice",
       "branch": "fix-edit-pset-update-list-value-5195",
-      "head": "db50fc6",
+      "head": "6aac42b",
       "status": "merged",
       "title": "pset.edit_pset: support updating IfcPropertyListValue properties (#5195)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8298"
@@ -856,7 +848,7 @@
     "8336": {
       "author": "BIMvoice",
       "branch": "fix-2851-extrusion-dedup",
-      "head": "2999ddf",
+      "head": "3f87bb4",
       "status": "merged",
       "title": "Bonsai: recover extrusions from OCCT-duplicated verts, tessellate only when truly not an extrusion (#2851)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8336"
@@ -904,7 +896,7 @@
     "8345": {
       "author": "BIMvoice",
       "branch": "fix-4593-add-repr-loose-edges",
-      "head": "7a39f97",
+      "head": "88136ab",
       "status": "merged",
       "title": "geometry.add_representation: keep loose edges (curves) when a mesh also has faces (#4593)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8345"
@@ -1000,7 +992,7 @@
     "8598": {
       "author": "BIMvoice",
       "branch": "fix-4047-bounded-property-support",
-      "head": "3480524",
+      "head": "ad46240",
       "status": "merged",
       "title": "Bonsai/ifcopenshell-python: support editing IfcPropertyBoundedValue properties",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8598"
@@ -1056,7 +1048,7 @@
     "8669": {
       "author": "theoryshaw",
       "branch": "fix-8667-guid-collision-type-assign",
-      "head": "adeed6f",
+      "head": "fad38cf",
       "status": "merged",
       "title": "project.append_asset: don't abort batch on GlobalId collision (#8667)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8669"
@@ -1336,7 +1328,7 @@
     "9517": {
       "author": "theoryshaw",
       "branch": "underside_union_clip_9516",
-      "head": "7b55b55",
+      "head": "7e011dd",
       "status": "merged",
       "title": "Bonsai: fuse underside clip solids into one UNION tool (#9516)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9517"
@@ -1392,10 +1384,106 @@
     "9851": {
       "author": "theoryshaw",
       "branch": "terrain-contours",
-      "head": "70c8a9f",
+      "head": "b1aacba",
       "status": "merged",
       "title": "Bonsai: generate terrain contour lines as IfcAnnotation CONTOURLINE",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9851"
+    },
+    "9867": {
+      "author": "theoryshaw",
+      "branch": "units-auto-assign",
+      "head": "7ba21e1",
+      "status": "merged",
+      "title": "Bonsai: assign a newly added unit when its type has none",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9867"
+    },
+    "9868": {
+      "author": "theoryshaw",
+      "branch": "structural-loads/1-fixes",
+      "head": "3be4df8",
+      "status": "merged",
+      "title": "Structural: fix load cases, load groups and activities",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9868"
+    },
+    "9869": {
+      "author": "theoryshaw",
+      "branch": "structural-loads/2-apply-edit",
+      "head": "8c8bbc0",
+      "status": "merged",
+      "title": "Structural: streamline applying and editing loads",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9869"
+    },
+    "9870": {
+      "author": "theoryshaw",
+      "branch": "structural-loads/3-diagrams",
+      "head": "1922eb9",
+      "status": "merged",
+      "title": "Structural: readable point force diagrams in Show Loads",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9870"
+    },
+    "9871": {
+      "author": "theoryshaw",
+      "branch": "structural-loads/4-viewport-editing",
+      "head": "75c69a0",
+      "status": "merged",
+      "title": "Structural: edit loads from the viewport",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9871"
+    },
+    "9872": {
+      "author": "theoryshaw",
+      "branch": "structural-loads/5-item-loads",
+      "head": "f1da948",
+      "status": "merged",
+      "title": "Structural: see and show a structural item's loads",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9872"
+    },
+    "9900": {
+      "author": "theoryshaw",
+      "branch": "structural-loads/6-input-display",
+      "head": "04c99b2",
+      "status": "merged",
+      "title": "Enter loads by eighths and refine their display",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9900"
+    },
+    "9901": {
+      "author": "theoryshaw",
+      "branch": "structural-loads/7-knowns-unknowns",
+      "head": "12f1f8f",
+      "status": "merged",
+      "title": "Lock known force values and solve the unknowns",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9901"
+    },
+    "9902": {
+      "author": "theoryshaw",
+      "branch": "structural-loads/8-point-axes",
+      "head": "afa6103",
+      "status": "merged",
+      "title": "Tilt structural point axes in the X-Z plane",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9902"
+    },
+    "9903": {
+      "author": "theoryshaw",
+      "branch": "structural-loads/9-calculation-reports",
+      "head": "03279dd",
+      "status": "merged",
+      "title": "Export structural calculation reports",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9903"
+    },
+    "9904": {
+      "author": "theoryshaw",
+      "branch": "structural-loads/10-inclines",
+      "head": "2cffa64",
+      "status": "merged",
+      "title": "Resolve forces on inclines and from known components",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9904"
+    },
+    "9905": {
+      "author": "theoryshaw",
+      "branch": "structural-loads/11-report-docs",
+      "head": "8146f70",
+      "status": "merged",
+      "title": "Document structural calculation reports",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9905"
     }
   },
   "publisher": {
@@ -1404,8 +1492,9 @@
     "instance": "https://github.com/OpeningDesign/bonsaiPR"
   },
   "release": {
-    "tag": "v0.9.0-alpha2610072353",
-    "url": "https://github.com/OpeningDesign/bonsaiPR/releases/tag/v0.9.0-alpha2610072353"
+    "tag": null,
+    "url": null
   },
-  "schema": 2
+  "schema": 2,
+  "selected_not_open": {}
 }
