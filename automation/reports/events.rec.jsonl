@@ -258,3 +258,4 @@
 {"ts": "2026-10-11T20:54:01Z", "order": "recorded", "pr": 9903, "event": "added", "to": "merged"}
 {"ts": "2026-10-11T20:54:01Z", "order": "recorded", "pr": 9904, "event": "added", "to": "merged"}
 {"ts": "2026-10-11T20:54:01Z", "order": "recorded", "pr": 9905, "event": "added", "to": "merged"}
+{"ts": "2026-10-11T22:55:38Z", "order": "recorded", "pr": 7669, "event": "status", "from": "failed", "to": "merged"}

@@ -2,18 +2,18 @@
   "base": "v0.9.0",
   "base_commit": "1db93ae5e97d402d7ef6847db64ea3434216e4f8",
   "counts": {
-    "failed": 9,
-    "merged": 173,
+    "failed": 8,
+    "merged": 174,
     "skipped_conflict": 1,
     "skipped_draft": 0,
     "total": 183
   },
-  "generated_at": "2026-10-11T21:00:58Z",
+  "generated_at": "2026-10-11T22:55:38Z",
   "merge_order": "recorded",
   "profile": {
     "base_branch": "v0.9.0",
     "base_commit": null,
-    "digest": "sha256:895dab8a1798db4427a96c9e8f428a273e3a22fbdba031b2a5a58809305ceeaf",
+    "digest": "sha256:a99dfe0d2a1a820685026a61547a3d372501a40a12c4b38808b73fb3910b5e66",
     "mode": "allowlist",
     "name": "openingdesign",
     "pinned_prs": 174,
@@ -112,8 +112,8 @@
     "7669": {
       "author": "falken10vdl",
       "branch": "clipboard-module",
-      "head": "4bc21f8",
-      "status": "failed",
+      "head": "6e101cd",
+      "status": "merged",
       "title": "First version clipboard module. 3 modes available (RENAME, DUPLICATE, DESTINATION)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/7669"
     },
@@ -1492,8 +1492,8 @@
     "instance": "https://github.com/OpeningDesign/bonsaiPR"
   },
   "release": {
-    "tag": "v0.9.0-alpha2610112059",
-    "url": "https://github.com/OpeningDesign/bonsaiPR/releases/tag/v0.9.0-alpha2610112059"
+    "tag": null,
+    "url": null
   },
   "schema": 2,
   "selected_not_open": {}
