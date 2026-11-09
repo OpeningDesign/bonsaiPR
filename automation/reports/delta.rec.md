@@ -1,3 +1,4 @@
 ### 🔁 Changes since last build _(merge order: recorded)_
 
-_No PR-level changes since the previous build._
+**Updated (new commits) (1)**
+- [#8241](https://github.com/IfcOpenShell/IfcOpenShell/pull/8241) — Additional selection and deselection tools
