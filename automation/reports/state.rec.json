@@ -1,6 +1,6 @@
 {
   "base": "v0.9.0",
-  "base_commit": "6a5283ac797d2acc5ce2cbbde0fb544fea83f426",
+  "base_commit": "04239598d2b5de8cb35bb0b69d82c46d8a8ccf33",
   "counts": {
     "failed": 10,
     "merged": 213,
@@ -8,7 +8,7 @@
     "skipped_draft": 0,
     "total": 224
   },
-  "generated_at": "2026-11-09T00:31:27Z",
+  "generated_at": "2026-11-09T13:49:20Z",
   "merge_order": "recorded",
   "profile": {
     "base_branch": "v0.9.0",
@@ -1820,8 +1820,8 @@
     "instance": "https://github.com/OpeningDesign/bonsaiPR"
   },
   "release": {
-    "tag": "v0.9.0-alpha2611090029",
-    "url": "https://github.com/OpeningDesign/bonsaiPR/releases/tag/v0.9.0-alpha2611090029"
+    "tag": "v0.9.0-alpha2611091347",
+    "url": "https://github.com/OpeningDesign/bonsaiPR/releases/tag/v0.9.0-alpha2611091347"
   },
   "removed_api_calls": [],
   "schema": 2,
