@@ -1,23 +1,23 @@
 {
   "base": "v0.9.0",
-  "base_commit": "04239598d2b5de8cb35bb0b69d82c46d8a8ccf33",
+  "base_commit": "ba5f43c13af5dd5da69e04c6eed45d99ec718b58",
   "counts": {
     "failed": 10,
-    "merged": 213,
+    "merged": 214,
     "skipped_conflict": 1,
     "skipped_draft": 0,
-    "total": 224
+    "total": 225
   },
-  "generated_at": "2026-11-09T15:36:22Z",
+  "generated_at": "2026-11-10T18:57:18Z",
   "merge_order": "recorded",
   "profile": {
     "base_branch": "v0.9.0",
     "base_commit": null,
-    "digest": "sha256:63b500d44c8a35bbbc8d1117e26f6dd95b9181dd067d863f378a97845200a6c5",
+    "digest": "sha256:08197aac6d5d9cb13b0dc59fbbcdd9fe9d59e1265c521e9c47331414fc53be95",
     "mode": "allowlist",
     "name": "openingdesign",
-    "pinned_prs": 215,
-    "selected": 224,
+    "pinned_prs": 216,
+    "selected": 225,
     "url": "https://github.com/OpeningDesign/bonsaiPR/blob/main/profiles/openingdesign.json"
   },
   "prs": {
@@ -93,14 +93,6 @@
       "title": "Structural Analysis 32: Make moment drawings easier to read",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/10064"
     },
-    "10098": {
-      "author": "theoryshaw",
-      "branch": "default_drawing_metadata_10097",
-      "head": "d6ac83e",
-      "status": "merged",
-      "title": "Bonsai: add a preference for a new drawing's default Metadata",
-      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/10098"
-    },
     "10100": {
       "author": "theoryshaw",
       "branch": "fix-reload-stale-type-mesh-10099",
@@ -164,6 +156,22 @@
       "status": "merged",
       "title": "Assign structural analysis models to buildings",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/10175"
+    },
+    "10181": {
+      "author": "theoryshaw",
+      "branch": "format-replace-function",
+      "head": "eb84af7",
+      "status": "merged",
+      "title": "Add replace() to the selector format language",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/10181"
+    },
+    "10184": {
+      "author": "theoryshaw",
+      "branch": "append-asset-angle-units",
+      "head": "af4eec7",
+      "status": "merged",
+      "title": "Convert plane angles in append_asset between library and project units",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/10184"
     },
     "5452": {
       "author": "chiragsingh1711",
@@ -1472,7 +1480,7 @@
     "9555": {
       "author": "theoryshaw",
       "branch": "sheet_template_api",
-      "head": "94c82dd",
+      "head": "931af58",
       "status": "merged",
       "title": "Bonsai: a web API for tools that display and edit sheets without building them",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9555"
@@ -1820,8 +1828,8 @@
     "instance": "https://github.com/OpeningDesign/bonsaiPR"
   },
   "release": {
-    "tag": "v0.9.0-alpha2611091534",
-    "url": "https://github.com/OpeningDesign/bonsaiPR/releases/tag/v0.9.0-alpha2611091534"
+    "tag": null,
+    "url": null
   },
   "removed_api_calls": [],
   "schema": 2,
