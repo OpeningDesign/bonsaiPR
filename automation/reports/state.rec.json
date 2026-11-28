@@ -1,23 +1,23 @@
 {
   "base": "v0.9.0",
-  "base_commit": "112de6e9413cf659e3d627abf3c8e5cdbe1d7840",
+  "base_commit": "9e02d93ad6cd9450757a1f027c695d45a24b6503",
   "counts": {
     "failed": 10,
-    "merged": 187,
+    "merged": 186,
     "skipped_conflict": 1,
     "skipped_draft": 0,
-    "total": 198
+    "total": 197
   },
-  "generated_at": "2026-11-25T21:07:20Z",
+  "generated_at": "2026-11-28T02:26:52Z",
   "merge_order": "recorded",
   "profile": {
     "base_branch": "v0.9.0",
     "base_commit": null,
-    "digest": "sha256:3176711084ef300da489d2cd8b2351ccd4876816e6ad0e2c348d3b3e5f7074bd",
+    "digest": "sha256:46e90119bdae39bf693133f6314efd849b2475d4567875cc446ecb398f6a7c08",
     "mode": "allowlist",
     "name": "openingdesign",
-    "pinned_prs": 189,
-    "selected": 198,
+    "pinned_prs": 188,
+    "selected": 197,
     "url": "https://github.com/OpeningDesign/bonsaiPR/blob/main/profiles/openingdesign.json"
   },
   "prs": {
@@ -172,6 +172,14 @@
       "status": "merged",
       "title": "Bonsai: refresh the item profile list after replacing a named profile",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/10350"
+    },
+    "10368": {
+      "author": "theoryshaw",
+      "branch": "shape_aspect_material_ui",
+      "head": "b46aa23",
+      "status": "merged",
+      "title": "Bonsai: material constituents, separate and join for representation items",
+      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/10368"
     },
     "5452": {
       "author": "chiragsingh1711",
@@ -1101,14 +1109,6 @@
       "title": "ifc5d: add base-quantity rule for IfcGeographicElement (#6508)",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8393"
     },
-    "8429": {
-      "author": "theoryshaw",
-      "branch": "fix-layer3-slab-horizontal-profile-edit",
-      "head": "e7dfd43",
-      "status": "merged",
-      "title": "Fix horizontal profile editing for sloped LAYER3 slabs",
-      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/8429"
-    },
     "8448": {
       "author": "petruconduraru",
       "branch": "fix-4103-section-marker-direction",
@@ -1365,14 +1365,6 @@
       "title": "Fix reflected plan drawings rebuilding their camera on every create_drawing",
       "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9320"
     },
-    "9327": {
-      "author": "theoryshaw",
-      "branch": "polyline_rectangle_mode_9326",
-      "head": "a41da6c",
-      "status": "merged",
-      "title": "Rectangle mode for the polyline slab, wall and profile tools (closes #9326)",
-      "url": "https://github.com/IfcOpenShell/IfcOpenShell/pull/9327"
-    },
     "9370": {
       "author": "theoryshaw",
       "branch": "fix-sheet-presentation-attr-ids",
@@ -1612,8 +1604,8 @@
     "instance": "https://github.com/OpeningDesign/bonsaiPR"
   },
   "release": {
-    "tag": "v0.9.0-alpha2611252105",
-    "url": "https://github.com/OpeningDesign/bonsaiPR/releases/tag/v0.9.0-alpha2611252105"
+    "tag": null,
+    "url": null
   },
   "removed_api_calls": [],
   "schema": 2,
